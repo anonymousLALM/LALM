@@ -1,0 +1,21 @@
+{
+  "training_seeds": [
+    7,
+    13,
+    23
+  ],
+  "planned_training_seeds": [
+    7,
+    13,
+    23
+  ],
+  "evaluation_stream_seeds": [
+    11,
+    13,
+    17
+  ],
+  "complete": true,
+  "aggregation": "Mean within each training seed across evaluation streams, then mean and sample SD across training seeds. Shared baselines are not independent training replicates.",
+  "source_rows_sha256": "e90df7d53f02a1e6600074fedb5367ceccb8d90eafd3b924ac20ffb97732515a",
+  "aggregate_metrics_sha256": "946dcfdb24ef71c1a8f516362d5c86f8470e138afe065e279b21033b58b3c524"
+}

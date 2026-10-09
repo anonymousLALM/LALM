@@ -1,0 +1,1 @@
+Use only the memory supplied by the configured agent to satisfy the requested action. Select one tool from the supplied schemas and return exactly one JSON object with keys "name" and "arguments". Do not explain the call or include Markdown. If the required value cannot be recalled, return {"name":null,"arguments":{}}. These calls are simulated; do not perform external actions.

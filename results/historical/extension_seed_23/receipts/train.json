@@ -1,0 +1,7 @@
+{
+  "stage": "train",
+  "run": "runs/20260930T094236Z_train_liquid",
+  "artifact": "checkpoints/best.pt",
+  "sha256": "10a50a8ebc9d46ebad9ebd1c1461ab5474f23b780ee37455ca1ff04091ea0884",
+  "source_zip_sha256": "cab2388c8401b6f9486dd08a75dfbe4e39fe1825e4ccba98b00ce6a0a601cd9a"
+}

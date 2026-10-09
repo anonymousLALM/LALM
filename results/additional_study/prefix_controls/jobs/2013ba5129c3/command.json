@@ -1,0 +1,8 @@
+[
+  "python",
+  "scripts/run_synthetic.py",
+  "--config",
+  "results/additional_study/prefix_controls/jobs/2013ba5129c3/config.yaml",
+  "--checkpoint",
+  "results/historical/runs/20260708T082250Z_train_liquid/checkpoints/best.pt"
+]

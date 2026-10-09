@@ -1,0 +1,13 @@
+style,horizon,agent,n_training_seeds,mean,sample_sd,complete
+original,1000,lalm,5,0.696,0.06047956496022252,True
+original,1000,lalm_zero_prefix,5,0.68,0.0,True
+original,1000,lalm_random_prefix,5,0.624,0.020869967789998004,True
+original,1000,lalm_permuted_prefix,5,0.5986666666666667,0.06099180272790759,True
+original,5000,lalm,5,0.7333333333333334,0.04737556801183967,True
+original,5000,lalm_zero_prefix,5,0.6733333333333333,0.0,True
+original,5000,lalm_random_prefix,5,0.66,0.01999999999999999,True
+original,5000,lalm_permuted_prefix,5,0.6613333333333333,0.05625339495927726,True
+cue_free,5000,lalm,5,0.608,0.076652172542959,True
+cue_free,5000,lalm_zero_prefix,5,0.54,0.0,True
+cue_free,5000,lalm_random_prefix,5,0.5826666666666667,0.018012341448141726,True
+cue_free,5000,lalm_permuted_prefix,5,0.5986666666666667,0.02280350850198274,True

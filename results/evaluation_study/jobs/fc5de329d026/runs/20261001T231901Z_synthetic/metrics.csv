@@ -1,0 +1,5 @@
+horizon,agent,examples,accuracy
+100,pure_liquid,100,0.15
+500,pure_liquid,75,0.14666666666666667
+1000,pure_liquid,50,0.14
+5000,pure_liquid,50,0.14

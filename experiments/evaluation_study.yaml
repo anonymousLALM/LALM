@@ -1,0 +1,13 @@
+project: LALM
+training_seeds:
+- 7
+- 13
+- 23
+checkpoints:
+  23: results/historical/extension_seed_23/runs/20260930T094236Z_train_liquid/checkpoints/best.pt
+  13: results/historical/runs/20260708T082250Z_train_liquid/checkpoints/best.pt
+  7: results/historical/runs/20260708T103921Z_train_liquid/checkpoints/best.pt
+extra_training_seeds:
+- 37
+- 41
+output: results/evaluation_study

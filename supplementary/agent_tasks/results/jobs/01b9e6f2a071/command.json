@@ -1,0 +1,8 @@
+[
+  "python",
+  "scripts/run_agent_tasks.py",
+  "--config",
+  "results/additional_study/agent_tasks/jobs/01b9e6f2a071/config.yaml",
+  "--checkpoint",
+  "results/historical/extension_seed_23/runs/20260930T094236Z_train_liquid/checkpoints/best.pt"
+]

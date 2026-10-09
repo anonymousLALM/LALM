@@ -1,0 +1,5 @@
+horizon,agent,examples,accuracy
+100,lalm,100,0.72
+500,lalm,75,0.7466666666666667
+1000,lalm,50,0.76
+5000,lalm,50,0.74

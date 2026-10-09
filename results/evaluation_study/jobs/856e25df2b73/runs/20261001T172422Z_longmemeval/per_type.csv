@@ -1,0 +1,7 @@
+agent,question_type,examples,diagnostic_token_f1,diagnostic_exact_match
+rag_timestamp,knowledge-update,78,0.3569337095652885,0.28205128205128205
+rag_timestamp,multi-session,133,0.06400600203504504,0.045112781954887216
+rag_timestamp,single-session-assistant,56,0.5522507374315203,0.375
+rag_timestamp,single-session-preference,30,0.04104440714089382,0.0
+rag_timestamp,single-session-user,20,0.2635716432055105,0.2
+rag_timestamp,temporal-reasoning,133,0.09836373483993284,0.05263157894736842

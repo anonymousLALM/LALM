@@ -1,0 +1,7 @@
+agent,question_type,examples,diagnostic_token_f1,diagnostic_exact_match
+pure_liquid,knowledge-update,78,0.08740298038543652,0.038461538461538464
+pure_liquid,multi-session,133,0.090562716314596,0.05263157894736842
+pure_liquid,single-session-assistant,56,0.1154532403686539,0.05357142857142857
+pure_liquid,single-session-preference,30,0.034041077029053186,0.0
+pure_liquid,single-session-user,20,0.08531746031746032,0.0
+pure_liquid,temporal-reasoning,133,0.14889887187077533,0.07518796992481203

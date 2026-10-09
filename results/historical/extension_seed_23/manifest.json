@@ -1,0 +1,25 @@
+{
+  "training_seed": 23,
+  "evaluation_stream_seeds": [
+    11,
+    13,
+    17
+  ],
+  "original_source_archive": "results/historical/implementation_snapshot.zip",
+  "source_sha256": "cab2388c8401b6f9486dd08a75dfbe4e39fe1825e4ccba98b00ce6a0a601cd9a",
+  "runs": {
+    "train": "results/historical/extension_seed_23/runs/20260930T094236Z_train_liquid",
+    "synthetic_eval_11": "results/historical/extension_seed_23/runs/20260930T104531Z_synthetic",
+    "synthetic_eval_13": "results/historical/extension_seed_23/runs/20260930T105831Z_synthetic",
+    "synthetic_eval_17": "results/historical/extension_seed_23/runs/20260930T111027Z_synthetic",
+    "prefix_1000_eval_11": "results/historical/extension_seed_23/runs/20260930T112222Z_synthetic",
+    "prefix_1000_eval_13": "results/historical/extension_seed_23/runs/20260930T112705Z_synthetic",
+    "prefix_1000_eval_17": "results/historical/extension_seed_23/runs/20260930T113146Z_synthetic",
+    "prefix_5000_eval_11": "results/historical/extension_seed_23/runs/20260930T113624Z_synthetic",
+    "prefix_5000_eval_13": "results/historical/extension_seed_23/runs/20260930T115230Z_synthetic",
+    "prefix_5000_eval_17": "results/historical/extension_seed_23/runs/20260930T120836Z_synthetic",
+    "longmemeval": "results/historical/extension_seed_23/runs/20260930T122443Z_longmemeval",
+    "locomo": "results/historical/extension_seed_23/runs/20260930T123545Z_locomo"
+  },
+  "note": "Third LALM training seed; checkpoint-independent baselines are reused."
+}

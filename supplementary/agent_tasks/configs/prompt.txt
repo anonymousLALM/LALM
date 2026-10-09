@@ -1,0 +1,2 @@
+Complete the requested action using the recalled facts. Choose one of the available tools and emit exactly one JSON object with keys "name" and "arguments". Do not emit commentary or execute a real external action. All required arguments must come from the request and memory. Available tools: {schemas}
+Action request: {request}

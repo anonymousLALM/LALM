@@ -1,0 +1,7 @@
+{
+  "stage": "synthetic_eval_11",
+  "run": "runs/20260930T104531Z_synthetic",
+  "artifact": "metrics.csv",
+  "sha256": "2a085e7bac721bf199815da7d54d7f9fab2a65e40a9b01abeb17e402e5a62efb",
+  "source_zip_sha256": "cab2388c8401b6f9486dd08a75dfbe4e39fe1825e4ccba98b00ce6a0a601cd9a"
+}

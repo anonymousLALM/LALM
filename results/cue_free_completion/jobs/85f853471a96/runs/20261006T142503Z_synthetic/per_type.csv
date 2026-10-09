@@ -1,0 +1,11 @@
+agent,question_type,accuracy
+lalm,boolean,0.0
+lalm,contradictory_update,0.0
+lalm,correction,0.0
+lalm,goal,0.9
+lalm,multi_fact,0.0
+lalm,paraphrase,0.7
+lalm,repeated_fact,1.0
+lalm,response_style,0.4
+lalm,stable_fact,0.9
+lalm,temporal,0.5

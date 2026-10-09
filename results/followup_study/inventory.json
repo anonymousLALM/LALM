@@ -1,0 +1,1298 @@
+[
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lexical_only",
+    "training_seed": 7,
+    "evaluation_seed": 13,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/03b418ea1a6a/runs/20261003T184941Z_synthetic",
+    "artifacts": {
+      "runs/20261003T184941Z_synthetic/config.yaml": "daea6824767245e2c0f1256cdad2db384e925f3d088e45756687dc07163882af",
+      "runs/20261003T184941Z_synthetic/dataset_manifest.json": "34ab7c017793ac021021722be487d535445e1e4bc2c51e6438536a0f40fe63d4",
+      "runs/20261003T184941Z_synthetic/predictions.jsonl": "f639a5c117158f172cc4802b2ab80d98c94da6ede3c7d3a5e4fa7cdc91924213",
+      "runs/20261003T184941Z_synthetic/metrics.csv": "9c6ceee92e664469057424cbdf4bfed1bc7722c6ac601e002062bb144b337f32",
+      "runs/20261003T184941Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T184941Z_synthetic/errors.jsonl": "7ff4651f32c28e8f17eabd39de761f64d7a6e1410c590b757fa4ec994ff87f2c",
+      "runs/20261003T184941Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T184941Z_synthetic/latency.csv": "deb3566b2c9fbb565eda69f1f4ca0862b3cd6cc5720d6aa8b20616e7d0a586b0",
+      "runs/20261003T184941Z_synthetic/memory.csv": "477edfb5ab9000f820df42b7344829eb7cac8d60d4a0bac23422766ce02dfb58",
+      "runs/20261003T184941Z_synthetic/per_type.csv": "bd34dcf10ce28728ea1559fc82c25eed7e68b9b2d94c5316d4fb6420fedbdd62"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "locomo",
+    "agent": "lexical_only",
+    "training_seed": 7,
+    "evaluation_seed": 7,
+    "correction_style": "original",
+    "horizons": null,
+    "replacement_rule": "newest_wins",
+    "run": "jobs/0b5fd1d3a528/runs/20261003T215643Z_locomo",
+    "artifacts": {
+      "runs/20261003T215643Z_locomo/config.yaml": "62ade75b940652444fddf1956948b7170965e260cec29ff353c48efcce07299d",
+      "runs/20261003T215643Z_locomo/dataset_manifest.json": "1e98e40406c98eaae5a2415d414a753e673b87e9f736dd496d9711ebe9205ce1",
+      "runs/20261003T215643Z_locomo/predictions.jsonl": "d975ccc3ee80d1e1a67739e3049e2563cf69a61eae9be9b74476be44637d83db",
+      "runs/20261003T215643Z_locomo/metrics.csv": "088d115c58722faa54b66709d8eec53196ef867663f1967d7476e45a22d6f529",
+      "runs/20261003T215643Z_locomo/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T215643Z_locomo/errors.jsonl": "353f2092c66b4512e3ca4577335cd89b3e67b3ce1e40355a6b21c5dcb373dbff",
+      "runs/20261003T215643Z_locomo/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T215643Z_locomo/latency.csv": "a44b23507c1d7e6d9ea3b99cef55a92b9fc8987b6eea935eed8e8471961cdb01",
+      "runs/20261003T215643Z_locomo/memory.csv": "ea203728d8e6f291558f112c92a24afbe4dc11cefa2405e96ef13bdc324c906c",
+      "runs/20261003T215643Z_locomo/official_input_lexical_only.jsonl": "b6a60b16e7f0818858bae52d8145abcbde1524212fd8a0bfc9fc75a9638065f5",
+      "runs/20261003T215643Z_locomo/per_type.csv": "9de3de04208cd344f05dae2388f9eda8d64b92f6c2158ca21c3281d9e0433981"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 37,
+    "evaluation_seed": 17,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/134cb801d969/runs/20261003T204106Z_synthetic",
+    "artifacts": {
+      "runs/20261003T204106Z_synthetic/config.yaml": "6da48db6eacd84c0ba8fc1f8fdeaa29cfb2f825fdaf4e8efa90fe2f830a6cbf6",
+      "runs/20261003T204106Z_synthetic/dataset_manifest.json": "ca896461e961c95280a585cca787938a0401093ec8d48fa6aa187b7883dbcb55",
+      "runs/20261003T204106Z_synthetic/predictions.jsonl": "d880b4ddc4ccae1cefd7def22dd1d2acadb8320298c7b9dfea8bfe3e5b74d6bd",
+      "runs/20261003T204106Z_synthetic/metrics.csv": "fa360f083998c58266c56d6064f1907d608c67bd79b2cb8ea31602714dadd612",
+      "runs/20261003T204106Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T204106Z_synthetic/errors.jsonl": "78f9c11cb7382aa626f94902af9c63fa143555da12e3c49bed32e5e4de37f718",
+      "runs/20261003T204106Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T204106Z_synthetic/latency.csv": "25882e1f676dc026eb909f9504858ea82d338c1951e3959b3cdc9c31b89257b8",
+      "runs/20261003T204106Z_synthetic/memory.csv": "007b930ecde20e631ddc81fe9c70a96e2e8070426609673b1a339213f2f54b73",
+      "runs/20261003T204106Z_synthetic/per_type.csv": "9bd59607d65ad8d809cf08afb8b651cafad14f12a1e6762111e387fe517c8de5",
+      "runs/20261003T204106Z_synthetic/streams_1000.jsonl": "418b0a47db12370820ece7c46a63ee2a159450ed4f42c6796557365fc0d6ec52",
+      "runs/20261003T204106Z_synthetic/streams_5000.jsonl": "60b4322568125ba275fe6fa1bca019c9ce5ee040cedd6bd588332f4c5f0f6dea"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 13,
+    "evaluation_seed": 11,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/13a4d451e725/runs/20261003T193408Z_synthetic",
+    "artifacts": {
+      "runs/20261003T193408Z_synthetic/config.yaml": "059f7e8e707e19f2b0dd2ecd9692b30f5a42ad61bae6d383ce77d11204e17dc8",
+      "runs/20261003T193408Z_synthetic/dataset_manifest.json": "74c75c15ff1513950206fd1510036ee9082dea35d5a74b81614aa927b587744c",
+      "runs/20261003T193408Z_synthetic/predictions.jsonl": "7551420111f9ee44712e268653f16ae85fc47d15b157cc30c7785e463c6a0fe5",
+      "runs/20261003T193408Z_synthetic/metrics.csv": "32e083862f30f883d7a8755608777fee3977dea483477b082a9e2b2b6860a3e5",
+      "runs/20261003T193408Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T193408Z_synthetic/errors.jsonl": "b7b6fd808f447ca9d75549221b2f86e298362ccfb7432cac0f6b0b2667fea027",
+      "runs/20261003T193408Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T193408Z_synthetic/latency.csv": "9cc72bfd6e2a0bc5437ac31f3af70a6bdfab259caf31e9dcdd6ae95e0da10baa",
+      "runs/20261003T193408Z_synthetic/memory.csv": "e8ca46110ad80512fb2722fe6a3ace977028223bbc96cf7ff1f2408925013622",
+      "runs/20261003T193408Z_synthetic/per_type.csv": "f81add2fa01a2d9e7122b0462922485a3711a0494f7929e295a8864c555d84bd",
+      "runs/20261003T193408Z_synthetic/streams_1000.jsonl": "ddc0ed99018f5936f849738f2199e970b0d5ffa478a0c9e1678b059b21344402",
+      "runs/20261003T193408Z_synthetic/streams_5000.jsonl": "4b427d680e7372306c79d74f554b6076bc39673bab8bbb3c03bde8608c93b000"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lexical_only",
+    "training_seed": 7,
+    "evaluation_seed": 17,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/13da7635895b/runs/20261003T205144Z_synthetic",
+    "artifacts": {
+      "runs/20261003T205144Z_synthetic/config.yaml": "b1ca233af7a14ebbb06e21f2da4c9f65706639f8f13433c50c9368f3eccb3913",
+      "runs/20261003T205144Z_synthetic/dataset_manifest.json": "dea0a3d8e4d0d0f53b1bb0f42abf506ec63c336a3884dec9d6d7c649da83402a",
+      "runs/20261003T205144Z_synthetic/predictions.jsonl": "3a62fdeb592d88bbfea63454ff4d81c06589242b25fed0e430b823d8262695ae",
+      "runs/20261003T205144Z_synthetic/metrics.csv": "21d24f844f08bb497d48f848599a590e1cdf81c218e2c32c8a7e179442aa4a99",
+      "runs/20261003T205144Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T205144Z_synthetic/errors.jsonl": "d82128ac72e05d7e4eb5849244e56861c51b1822dee515fe1852e4773402224b",
+      "runs/20261003T205144Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T205144Z_synthetic/latency.csv": "840038409d51be9e290ab530e90ee1c9d1bad6b01a9e9491d705442aa6c0e651",
+      "runs/20261003T205144Z_synthetic/memory.csv": "0304014af21a13a8b0d8fec6e8e04ce8ea96e983b003857c8c752b2dcf96d35e",
+      "runs/20261003T205144Z_synthetic/per_type.csv": "5f318acee5ff967e3c054dec94ce3874c460075f47fd6216db135c5a182a2a59",
+      "runs/20261003T205144Z_synthetic/streams_1000.jsonl": "418b0a47db12370820ece7c46a63ee2a159450ed4f42c6796557365fc0d6ec52",
+      "runs/20261003T205144Z_synthetic/streams_5000.jsonl": "60b4322568125ba275fe6fa1bca019c9ce5ee040cedd6bd588332f4c5f0f6dea"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 7,
+    "evaluation_seed": 11,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/15d14cba5ef7/runs/20261003T192906Z_synthetic",
+    "artifacts": {
+      "runs/20261003T192906Z_synthetic/config.yaml": "12a66fb690a0e5d3ccb6f7c27377693cb7ce80d51ab78853e43ff9a5f49bd387",
+      "runs/20261003T192906Z_synthetic/dataset_manifest.json": "1a97352c405492109d434611d395ba698dad30720f9c8fbc9cb9403af964df8d",
+      "runs/20261003T192906Z_synthetic/predictions.jsonl": "b92adfeac579e6865cdeb923d91afcea2cc02034fdf55c9699c2bce535c80d19",
+      "runs/20261003T192906Z_synthetic/metrics.csv": "07d6d2c7d117785d1bb9e242e8a1cf17e41dba8a1439d09a4607c3dfbd89c84a",
+      "runs/20261003T192906Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T192906Z_synthetic/errors.jsonl": "6d5cc6e47c615cbafd627fa4fb153d46dbbec2b385611dc2d0c134271c793a0a",
+      "runs/20261003T192906Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T192906Z_synthetic/latency.csv": "54585c65a698d55b8e37e100c84a5c4ed73e1b611ba59bff41ddd0f62f54b7f3",
+      "runs/20261003T192906Z_synthetic/memory.csv": "e8ca46110ad80512fb2722fe6a3ace977028223bbc96cf7ff1f2408925013622",
+      "runs/20261003T192906Z_synthetic/per_type.csv": "18a7542a3e187635134bec52751752099cfd00c003557eadeb6d50f96929370d",
+      "runs/20261003T192906Z_synthetic/streams_1000.jsonl": "ddc0ed99018f5936f849738f2199e970b0d5ffa478a0c9e1678b059b21344402",
+      "runs/20261003T192906Z_synthetic/streams_5000.jsonl": "4b427d680e7372306c79d74f554b6076bc39673bab8bbb3c03bde8608c93b000"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 13,
+    "evaluation_seed": 13,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/183001bbfbdf/runs/20261003T200217Z_synthetic",
+    "artifacts": {
+      "runs/20261003T200217Z_synthetic/config.yaml": "c03acae6fb477751e9039a47835565328661e1debf987a7f55eb0d191546170c",
+      "runs/20261003T200217Z_synthetic/dataset_manifest.json": "13db36656188102c0201a25e25ff613da456f6e76d8fa678e003e4fd9b8c465b",
+      "runs/20261003T200217Z_synthetic/predictions.jsonl": "fb95ab8b07d04f596a30f617845521769d7bc617a411b1b6855eb472cfb088c8",
+      "runs/20261003T200217Z_synthetic/metrics.csv": "9b447a6f27fa4393d8aff8081acb746d1fb03de5aab9873988392fdfdab6c2dc",
+      "runs/20261003T200217Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T200217Z_synthetic/errors.jsonl": "ad7ccf5a52c05faf577c2ea527eb42f9533d456c8b64cbaaa5dd11791be927b8",
+      "runs/20261003T200217Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T200217Z_synthetic/latency.csv": "a19dcd4e736fe80d499eecc99e8db5b560a508cdb47d050981142c2e390e697a",
+      "runs/20261003T200217Z_synthetic/memory.csv": "7b2f9c50fdbd6271df8677822f6d15b6c1d72b56adff63a0313ef7bede753c72",
+      "runs/20261003T200217Z_synthetic/per_type.csv": "8175ba2bd0c1622163cb005e16f38893a67e70c7cb261470dadc44db0460dfbe",
+      "runs/20261003T200217Z_synthetic/streams_1000.jsonl": "3524bf92059550bb355e1e7f12e17f86f532cc23079f804f12f0828dafeb8675",
+      "runs/20261003T200217Z_synthetic/streams_5000.jsonl": "e0bd464af67dde7ef6609952c70bd802e4ff4536f6a9e3bfe25cec3ec8452dda"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lexical_only",
+    "training_seed": 7,
+    "evaluation_seed": 17,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/1f917c1bd245/runs/20261003T192614Z_synthetic",
+    "artifacts": {
+      "runs/20261003T192614Z_synthetic/config.yaml": "e0dcc8e1cd7feefb81786bb88f6c59d6615586419c8642c0bfb8dc53e14cef26",
+      "runs/20261003T192614Z_synthetic/dataset_manifest.json": "cc319a51b63bdf06c157b2649f51a36dc7bf9755e1edc4cb6a9faaacb05eb85a",
+      "runs/20261003T192614Z_synthetic/predictions.jsonl": "f911fe57f40943a8a5c47753307574ba4a49ef48393e07cc5e21893623ba41ff",
+      "runs/20261003T192614Z_synthetic/metrics.csv": "78a470ff161843accf7cc368207a866620418e74fb5a06f2b8c4e03e10726418",
+      "runs/20261003T192614Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T192614Z_synthetic/errors.jsonl": "aa46a8c3ba9eb3d7e985efffd310b8143aa51922235753d4f9618038b6b8e7d8",
+      "runs/20261003T192614Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T192614Z_synthetic/latency.csv": "3bd5d5a9b9acdd7d722e06926a2be2dd01b1bbf857f6200625447a78113c36cb",
+      "runs/20261003T192614Z_synthetic/memory.csv": "9d3eee124dff04df50c6781254cc66ff96e8218959eebfb7f5cd6fdb31502343",
+      "runs/20261003T192614Z_synthetic/per_type.csv": "1c2c65aa7589280a4bf7ac6f636301686ebc923640c1ba3739142303b3885e28"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lexical_only",
+    "training_seed": 7,
+    "evaluation_seed": 13,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/21113031a580/runs/20261003T202333Z_synthetic",
+    "artifacts": {
+      "runs/20261003T202333Z_synthetic/config.yaml": "d823ec40f44cb18e7d48e1ef573bb1607951bae31b335ad4fbbe485b23c63979",
+      "runs/20261003T202333Z_synthetic/dataset_manifest.json": "d4941a990068514b9cdc0c67a63a5ae6f66bf4dc32c83be42a6721649c9399ca",
+      "runs/20261003T202333Z_synthetic/predictions.jsonl": "6f2a8cea1ef6c42e299e30e8772785262f8e39b92c23a4d2285a01f33df5abaa",
+      "runs/20261003T202333Z_synthetic/metrics.csv": "d33c38d0356b42ed52e5d37ca2e7c53ab64b6cddc0f7e27ed93d7f379203664e",
+      "runs/20261003T202333Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T202333Z_synthetic/errors.jsonl": "723b6f0a9e7ba90c828b8dbd017ab94d81347767ce0f2b7c91c766f60fb91325",
+      "runs/20261003T202333Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T202333Z_synthetic/latency.csv": "b2afa54cd145984ca5006e97cb5a5f843af5ef8a3837156968821fb93a8b76a8",
+      "runs/20261003T202333Z_synthetic/memory.csv": "e6b1ec4867b82a9a657fc0739308729f2e8fc0736791cc8a1ced961c8ee64ba9",
+      "runs/20261003T202333Z_synthetic/per_type.csv": "1555fb45ea33aed249caf6ea38ac4c0976885b35edf70258023f665075a39041",
+      "runs/20261003T202333Z_synthetic/streams_1000.jsonl": "3524bf92059550bb355e1e7f12e17f86f532cc23079f804f12f0828dafeb8675",
+      "runs/20261003T202333Z_synthetic/streams_5000.jsonl": "e0bd464af67dde7ef6609952c70bd802e4ff4536f6a9e3bfe25cec3ec8452dda"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lexical_only",
+    "training_seed": 7,
+    "evaluation_seed": 11,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/254ff02afe37/runs/20261003T195503Z_synthetic",
+    "artifacts": {
+      "runs/20261003T195503Z_synthetic/config.yaml": "3d1f89b615b05c973b3564e5c8662e8d9a284dfb54b23d1261fababc6206d226",
+      "runs/20261003T195503Z_synthetic/dataset_manifest.json": "99fe9d64aadcd2899953ed5d43a73549a6609f41523eb38775625e4e3055777f",
+      "runs/20261003T195503Z_synthetic/predictions.jsonl": "493b786c0ff59b6292af3c1f08cd5abdd57f6ff8b65947bca43fb01b2ee3a3a9",
+      "runs/20261003T195503Z_synthetic/metrics.csv": "21d24f844f08bb497d48f848599a590e1cdf81c218e2c32c8a7e179442aa4a99",
+      "runs/20261003T195503Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T195503Z_synthetic/errors.jsonl": "31cd98f63025fca911c66df46669cda31f87dae569e9dbdfde8a805973d25c8e",
+      "runs/20261003T195503Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T195503Z_synthetic/latency.csv": "c6172041f5fe19b39983553e865f423580ef8fc2a1e746ef53d61367f3493526",
+      "runs/20261003T195503Z_synthetic/memory.csv": "46da8124a71443b2d398b8c9e714a3b3185e7cbcae16ee4251490157b5194216",
+      "runs/20261003T195503Z_synthetic/per_type.csv": "ca16618d83a9c54db667975685f0f1c994f5c456e2a5f507364855914a01a1c4",
+      "runs/20261003T195503Z_synthetic/streams_1000.jsonl": "ddc0ed99018f5936f849738f2199e970b0d5ffa478a0c9e1678b059b21344402",
+      "runs/20261003T195503Z_synthetic/streams_5000.jsonl": "4b427d680e7372306c79d74f554b6076bc39673bab8bbb3c03bde8608c93b000"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "longmemeval",
+    "agent": "lalm",
+    "training_seed": 37,
+    "evaluation_seed": 7,
+    "correction_style": "original",
+    "horizons": null,
+    "replacement_rule": "newest_wins",
+    "run": "jobs/2635c372f754/runs/20261003T211216Z_longmemeval",
+    "artifacts": {
+      "runs/20261003T211216Z_longmemeval/config.yaml": "af884521804b1470ef51dbf2160444546642d8d56bbf5c21d47720ca30eb4ad5",
+      "runs/20261003T211216Z_longmemeval/dataset_manifest.json": "509bd4246ea25c84075d44b8d7e6e0287599a4b420a9c3c34a38489d02a0e4d5",
+      "runs/20261003T211216Z_longmemeval/predictions.jsonl": "47e92ad3897b02e213c5acf1cccfa46be1e2d882cdfeea9fa28e82fe80b9ba4e",
+      "runs/20261003T211216Z_longmemeval/metrics.csv": "b4933827885be360271a414c545351ae82ca52e5cfa8e8050f2029b27677029e",
+      "runs/20261003T211216Z_longmemeval/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T211216Z_longmemeval/errors.jsonl": "6d60a87cd62d1d43ca94b48a45eb654020711551f17a3954de18168061161497",
+      "runs/20261003T211216Z_longmemeval/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T211216Z_longmemeval/latency.csv": "8a8fb2f538d5171eb4344005e523413f963fedd4e5e6d139f90b0a27a640fcb3",
+      "runs/20261003T211216Z_longmemeval/memory.csv": "f98dfe2f39803b4da7119b56b4a30192010f8c3cf845778f440d44b5779db8fa",
+      "runs/20261003T211216Z_longmemeval/official_input_lalm.jsonl": "65ca07972fc1da1a0496d8b2b3329e42f35d86ab968d9b6bf9ea1bf618f60bdf",
+      "runs/20261003T211216Z_longmemeval/per_type.csv": "cc0c03ce24098c48af06e8c16edb43e9a975cda71ff436fe45da15e8eae962d7"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 7,
+    "evaluation_seed": 13,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/33940a920c33/runs/20261003T181553Z_synthetic",
+    "artifacts": {
+      "runs/20261003T181553Z_synthetic/config.yaml": "8fe9c188cdb78ab7c3e34869a1f543adc228dd8ce63a7d44c2ea11cfb3973b0b",
+      "runs/20261003T181553Z_synthetic/dataset_manifest.json": "410929909218fd4814ba0513f4c68d606c815660afadc691726d7a1c47914b3a",
+      "runs/20261003T181553Z_synthetic/predictions.jsonl": "b62052812e08408b63ae07f6da6a3ee445fd001a0da3fdfbca9218f35cf09095",
+      "runs/20261003T181553Z_synthetic/metrics.csv": "50e9e3acd27c2e0a2a47e374671d99288d1493c05e50686a6b70c1cadc02d33c",
+      "runs/20261003T181553Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T181553Z_synthetic/errors.jsonl": "8b6b79b53829cc707017111287e0b0d6f98dc9054d7193aa9e7423e909ff539f",
+      "runs/20261003T181553Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T181553Z_synthetic/latency.csv": "9cc250b4a8ff84ea1783b2f7605b2328070f01fbb8b5aa92f3855dd5df4de727",
+      "runs/20261003T181553Z_synthetic/memory.csv": "5a9adeae1c83b6b903b598a700ff64d81105babaf6b00048bc00377b6f6e667e",
+      "runs/20261003T181553Z_synthetic/per_type.csv": "b2aabe502ea5dced1e723d2a1e64d9f0c5d3430fe0df0a4135fa7d96b737b019"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 23,
+    "evaluation_seed": 11,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/380953d68aeb/runs/20261003T193912Z_synthetic",
+    "artifacts": {
+      "runs/20261003T193912Z_synthetic/config.yaml": "266c9f4b611e058c22f4308ef053e59aa7ba1536b9585f99a01fa40ce3bd4610",
+      "runs/20261003T193912Z_synthetic/dataset_manifest.json": "a12c700307fe0c76dfef3b3ef448481336e416eaa70eded7ff19b508dd22c5b0",
+      "runs/20261003T193912Z_synthetic/predictions.jsonl": "825fd5d6ec9f7809d20d05f6348b4b804315dbca10d8ca816e63cb58edd99311",
+      "runs/20261003T193912Z_synthetic/metrics.csv": "9d5d310f8fedbc3c8545a16975854d88d978edd192dcf85feff4fc9a66d60dc7",
+      "runs/20261003T193912Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T193912Z_synthetic/errors.jsonl": "68744e9a80b68412b136e33c828c937b40405235189b29fdcc73d23c273a3a36",
+      "runs/20261003T193912Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T193912Z_synthetic/latency.csv": "c49d518a860f49eaec191f514254f0174a466de55acb41a26280577d94c87794",
+      "runs/20261003T193912Z_synthetic/memory.csv": "e8ca46110ad80512fb2722fe6a3ace977028223bbc96cf7ff1f2408925013622",
+      "runs/20261003T193912Z_synthetic/per_type.csv": "0df1fdba5d6959ecff4f4f082261d0f7609daf7419cf44697c5ddf7519a0f6c5",
+      "runs/20261003T193912Z_synthetic/streams_1000.jsonl": "ddc0ed99018f5936f849738f2199e970b0d5ffa478a0c9e1678b059b21344402",
+      "runs/20261003T193912Z_synthetic/streams_5000.jsonl": "4b427d680e7372306c79d74f554b6076bc39673bab8bbb3c03bde8608c93b000"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 7,
+    "evaluation_seed": 11,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/3c3a30be5675/runs/20261003T173823Z_synthetic",
+    "artifacts": {
+      "runs/20261003T173823Z_synthetic/config.yaml": "581211782b9e956fba95ceada964a823c5964dc0e6387f1ab8945cda029164e3",
+      "runs/20261003T173823Z_synthetic/dataset_manifest.json": "672a6b258c516b636cb3ab62244a12a28619f955b7859898f698f3c2bff51414",
+      "runs/20261003T173823Z_synthetic/predictions.jsonl": "9864529e88996c8f5699004aef606f03c0a3166ab1e29feff60b0b777a6cb6f0",
+      "runs/20261003T173823Z_synthetic/metrics.csv": "ec756b3f3400f383dc213dc5ca1e1adee1822515b47aa23884018c2e613abd87",
+      "runs/20261003T173823Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T173823Z_synthetic/errors.jsonl": "c8969c318f1ad4efabb1852d13dda7ace901b04c30d2c9efb25e5739c29481bc",
+      "runs/20261003T173823Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T173823Z_synthetic/latency.csv": "7372d3dda9965ad7abdc7e1390baf7049bbe5ece3845a2c755b34f7bf139ef2e",
+      "runs/20261003T173823Z_synthetic/memory.csv": "f4b4301346be593970b1508ce565e9ee3ee7fe23aacfe30b899e58f616f0e2d2",
+      "runs/20261003T173823Z_synthetic/per_type.csv": "ef26f947c1f40e3b0543206e8846cee061174b39efc5585ece896a0743a4cbff"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 37,
+    "evaluation_seed": 13,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/459d8f702214/runs/20261003T201253Z_synthetic",
+    "artifacts": {
+      "runs/20261003T201253Z_synthetic/config.yaml": "312db8f5b7c665f5f8eacc21e2310db6bc09268466e6d1827a3a59376921d73c",
+      "runs/20261003T201253Z_synthetic/dataset_manifest.json": "7aa3dbd3568bf845d7984f59e82168d76b33b3385e732ca6193eb462fc828583",
+      "runs/20261003T201253Z_synthetic/predictions.jsonl": "ed368ca808d0949bb6cac7d0fcd9f9919fbe5f728c631db2106b3f0f54618592",
+      "runs/20261003T201253Z_synthetic/metrics.csv": "4b7c2296241fd70c822f6871de22bffd21c09671cbf8e7e67710122b3192bd30",
+      "runs/20261003T201253Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T201253Z_synthetic/errors.jsonl": "adeb98ed247bae4855379afb7824df4132e5a736544f7a7af61024cf84762cfb",
+      "runs/20261003T201253Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T201253Z_synthetic/latency.csv": "66d9d8434c266d3dc54c9cecc17567d675727f6e30f76719a7429864f4266e8a",
+      "runs/20261003T201253Z_synthetic/memory.csv": "7b2f9c50fdbd6271df8677822f6d15b6c1d72b56adff63a0313ef7bede753c72",
+      "runs/20261003T201253Z_synthetic/per_type.csv": "cef2fc36b4c1938ca1e1415844e63fb5b05ac660f1992432dba43715fda747a3",
+      "runs/20261003T201253Z_synthetic/streams_1000.jsonl": "3524bf92059550bb355e1e7f12e17f86f532cc23079f804f12f0828dafeb8675",
+      "runs/20261003T201253Z_synthetic/streams_5000.jsonl": "e0bd464af67dde7ef6609952c70bd802e4ff4536f6a9e3bfe25cec3ec8452dda"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "longmemeval",
+    "agent": "lalm",
+    "training_seed": 7,
+    "evaluation_seed": 7,
+    "correction_style": "original",
+    "horizons": null,
+    "replacement_rule": "newest_wins",
+    "run": "jobs/49aefee12d18/runs/20261003T205336Z_longmemeval",
+    "artifacts": {
+      "runs/20261003T205336Z_longmemeval/config.yaml": "90422864f0c6f563d163f6ce04b59e3483eb4a5d12377cb72cc439275e5e63d1",
+      "runs/20261003T205336Z_longmemeval/dataset_manifest.json": "7664b4a926e34c0897cf13e7aed7eab63311898253c12d69114de2ef208b1151",
+      "runs/20261003T205336Z_longmemeval/predictions.jsonl": "577e9c6a42270bb50c72c4ade6134dd992c468561c218f2c8c99f7a805e3378d",
+      "runs/20261003T205336Z_longmemeval/metrics.csv": "4abe3fa96dbc1bea6c8c1e6351fe99669c0b4e1117d9056f1389a6e3bb740f81",
+      "runs/20261003T205336Z_longmemeval/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T205336Z_longmemeval/errors.jsonl": "c74e2dfcae78b10b9bfb5a3cc5b71b15cc23ac7e085d0de74b3e6891bf4baea5",
+      "runs/20261003T205336Z_longmemeval/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T205336Z_longmemeval/latency.csv": "12cd72697b35c3ae79c527ac0cb02c2bdd99559dcb006217f0f3f7eafcf21826",
+      "runs/20261003T205336Z_longmemeval/memory.csv": "f98dfe2f39803b4da7119b56b4a30192010f8c3cf845778f440d44b5779db8fa",
+      "runs/20261003T205336Z_longmemeval/official_input_lalm.jsonl": "7b12bfb86415abc0939c420f56bf624979ea1797eceae4172fae98fd7df56c72",
+      "runs/20261003T205336Z_longmemeval/per_type.csv": "97db54509ef8e4404c737161705e7a8895c48de3467f86832c3c2af5f7bd63cc"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 37,
+    "evaluation_seed": 11,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/54047b4836bf/runs/20261003T194418Z_synthetic",
+    "artifacts": {
+      "runs/20261003T194418Z_synthetic/config.yaml": "f4af6231a41fb73ce28ff5591fc3dc53ce255641913913bec4e5763676e7ba3b",
+      "runs/20261003T194418Z_synthetic/dataset_manifest.json": "99acf8365eed1c1e7ee124e899367ad0c57b7347639b4bdb14bf84fb96257c2e",
+      "runs/20261003T194418Z_synthetic/predictions.jsonl": "a38a40e48b162c8c9da00d6d64288db52551d4508e551123801057a4cbcb050a",
+      "runs/20261003T194418Z_synthetic/metrics.csv": "eb2e087cb2bfaef86ca48862d3fc250426fa04224c639d8d532efc3109f21d81",
+      "runs/20261003T194418Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T194418Z_synthetic/errors.jsonl": "27a3ff685553a9d48bc91cfac63fa8c8d901c9f57ac049fe29c39d918ba63649",
+      "runs/20261003T194418Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T194418Z_synthetic/latency.csv": "a7a6329e8af1e51fb31d48858db2c4d5e4c818f26d5b8303d2ad40c9b5ff4a6c",
+      "runs/20261003T194418Z_synthetic/memory.csv": "e8ca46110ad80512fb2722fe6a3ace977028223bbc96cf7ff1f2408925013622",
+      "runs/20261003T194418Z_synthetic/per_type.csv": "db0db72bf95edc92fdaa8f4d43d6138d616123df9c87218547cd8d89906909aa",
+      "runs/20261003T194418Z_synthetic/streams_1000.jsonl": "ddc0ed99018f5936f849738f2199e970b0d5ffa478a0c9e1678b059b21344402",
+      "runs/20261003T194418Z_synthetic/streams_5000.jsonl": "4b427d680e7372306c79d74f554b6076bc39673bab8bbb3c03bde8608c93b000"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 13,
+    "evaluation_seed": 11,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/554b2e644049/runs/20261003T174557Z_synthetic",
+    "artifacts": {
+      "runs/20261003T174557Z_synthetic/config.yaml": "45a48e2904a95620399fb7143bd211d58352ac12e2541ec34d8d05b0c42c963c",
+      "runs/20261003T174557Z_synthetic/dataset_manifest.json": "71456f567399373499d16c202f8318e9b24d3232d2ba399319cb9dd749b1c3f4",
+      "runs/20261003T174557Z_synthetic/predictions.jsonl": "6ca890cb2d8cb43faff3a42e712a770a44112138746cf7521545b8f152c08b2d",
+      "runs/20261003T174557Z_synthetic/metrics.csv": "d201e3302a1b48151b4dbe40d96460804e7c94093ff37d19b01f023f6113d854",
+      "runs/20261003T174557Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T174557Z_synthetic/errors.jsonl": "5f01fcccf12182d7f0c888604aecb0320a044bf4d4e757af0cdf4445044b82f8",
+      "runs/20261003T174557Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T174557Z_synthetic/latency.csv": "c1b8005e035f6f8c2df2a6143b8987a698f7b2c32fd1c834d5e678d021a748df",
+      "runs/20261003T174557Z_synthetic/memory.csv": "f4b4301346be593970b1508ce565e9ee3ee7fe23aacfe30b899e58f616f0e2d2",
+      "runs/20261003T174557Z_synthetic/per_type.csv": "fd97434d50784e9d87d2265ceca31b6574af9912e255282ee5dd8b1764b80249"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 41,
+    "evaluation_seed": 11,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/5b2962d9739b/runs/20261003T180616Z_synthetic",
+    "artifacts": {
+      "runs/20261003T180616Z_synthetic/config.yaml": "c111a349c05aff8e978726881965d6cb47e722509439e12b4aca5311cdc99daf",
+      "runs/20261003T180616Z_synthetic/dataset_manifest.json": "7a9ba267be6ff120e8c2e06186391a4753c653704957a3ff5c3bbc2627471e18",
+      "runs/20261003T180616Z_synthetic/predictions.jsonl": "fe8b9c531e2a7e6ce35be0150a51a301cd94237e403b478b856be7a039a56fdf",
+      "runs/20261003T180616Z_synthetic/metrics.csv": "56ea25d405a4a713c984d1dfccf1dd31bc791f8cb4a38d9d63dc902da46d37a4",
+      "runs/20261003T180616Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T180616Z_synthetic/errors.jsonl": "f574f63b07eeab2535cfa7851be271c572810d1be9ff0c8e123ca8d21e58fce2",
+      "runs/20261003T180616Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T180616Z_synthetic/latency.csv": "a7ec806fc489710ad77413e3588ecfee48a253f423efb91a22d31aef3ffa2c69",
+      "runs/20261003T180616Z_synthetic/memory.csv": "f4b4301346be593970b1508ce565e9ee3ee7fe23aacfe30b899e58f616f0e2d2",
+      "runs/20261003T180616Z_synthetic/per_type.csv": "93375d77cdb35779a2ba9a9b1a62e96b7a8f51025cdd38cafb313d96a2914c41"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "locomo",
+    "agent": "lalm",
+    "training_seed": 23,
+    "evaluation_seed": 7,
+    "correction_style": "original",
+    "horizons": null,
+    "replacement_rule": "newest_wins",
+    "run": "jobs/60daf9810022/runs/20261003T213936Z_locomo",
+    "artifacts": {
+      "runs/20261003T213936Z_locomo/config.yaml": "10df401a32cdf21a0cfd4782651fff282b235d8392f1caa78bd666ef9f6ba49c",
+      "runs/20261003T213936Z_locomo/dataset_manifest.json": "6d23b8071f7876e402de4082e4d7c7994063d02fa9101b84f04244defbc48d05",
+      "runs/20261003T213936Z_locomo/predictions.jsonl": "0be1d2a02b47a59f8d8c5cb22a59974bb611c5751ae480dd4c6195e3eae46690",
+      "runs/20261003T213936Z_locomo/metrics.csv": "274310c54e28e678f5368c8782220e57ddac0907ae667dd95668242eebdee03a",
+      "runs/20261003T213936Z_locomo/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T213936Z_locomo/errors.jsonl": "57fb8551538e2e03328e6d5180914b2fadf3ab6544dc090cfa18760d0b8e404b",
+      "runs/20261003T213936Z_locomo/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T213936Z_locomo/latency.csv": "59f79ddd37634cc528945f935fa616a120defd3d6a562560f73a337f19195260",
+      "runs/20261003T213936Z_locomo/memory.csv": "2017102a8649fafc2dea4ef3db49173c65e58a2c8053184a253a09b8a5460227",
+      "runs/20261003T213936Z_locomo/official_input_lalm.jsonl": "8bb7468c7a3b8dc3a8077840752277d5ce6c8454e2b58699f6f5a354214bbb43",
+      "runs/20261003T213936Z_locomo/per_type.csv": "4370bb672e328d346a183ab69825cc9f88d10fdbca784a2320d4b822622932cf"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 13,
+    "evaluation_seed": 17,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/69b46e2a0fef/runs/20261003T185914Z_synthetic",
+    "artifacts": {
+      "runs/20261003T185914Z_synthetic/config.yaml": "77c2119b359759b7a757be416c691107069f7bab1c4a0ef7a02bfef040bd4dcd",
+      "runs/20261003T185914Z_synthetic/dataset_manifest.json": "85437161983485ca2a00a7f449826e95f8397b38702cea65ca35b405a31004ea",
+      "runs/20261003T185914Z_synthetic/predictions.jsonl": "329529408dfec01ede99f853a62df6a1ab9006c09c7e56848ff80c5c1a68a655",
+      "runs/20261003T185914Z_synthetic/metrics.csv": "7ae9ac84059d122219ffaf2a9962d8065f5c3b85ebe2cd547a7750b238e6f967",
+      "runs/20261003T185914Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T185914Z_synthetic/errors.jsonl": "2861b2ab77cac6733cf93b1b046c637c5d181e50f175578980de4f4401a893d8",
+      "runs/20261003T185914Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T185914Z_synthetic/latency.csv": "fa6a609c809336d7ef88cb64a67388578054152951152afa1c2daf1f63d2bc48",
+      "runs/20261003T185914Z_synthetic/memory.csv": "9f1bf6ef3b216c8cabd61a51772696352bbe02de0d3800450b1c2c8435e76745",
+      "runs/20261003T185914Z_synthetic/per_type.csv": "ad22c3b558579f50d6177aabf4af2d7110fb1e8e1bf11e45a41a3f7f22e0fc16"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "locomo",
+    "agent": "lalm",
+    "training_seed": 41,
+    "evaluation_seed": 7,
+    "correction_style": "original",
+    "horizons": null,
+    "replacement_rule": "newest_wins",
+    "run": "jobs/732038db0b56/runs/20261003T215206Z_locomo",
+    "artifacts": {
+      "runs/20261003T215206Z_locomo/config.yaml": "5815e5238f3773498367128e4193a8e3f8410feaa9aa95c0d1e8bd4b16070c71",
+      "runs/20261003T215206Z_locomo/dataset_manifest.json": "46d3b69358906d9a5bead037d3f32306e2c995947a4f6e0a0b43215f6ea8cf61",
+      "runs/20261003T215206Z_locomo/predictions.jsonl": "ab7bd17e6a9404140ddf75b57e801af939657a391d1b382d046b24c0f3bb0f1e",
+      "runs/20261003T215206Z_locomo/metrics.csv": "adbd44b0bd22fbcc1b1c0c14939aaea90c140ca1b06cdfc666b3fd26b697de0f",
+      "runs/20261003T215206Z_locomo/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T215206Z_locomo/errors.jsonl": "49793c2fc66bc8360513d39c193e9154c1f46157484c1c1e20e8fa615e968fc3",
+      "runs/20261003T215206Z_locomo/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T215206Z_locomo/latency.csv": "77edaf201e79b304cfdc5d2d1d0dddf85c3ad83759a1947f407c66b7d8fa6c6e",
+      "runs/20261003T215206Z_locomo/memory.csv": "2017102a8649fafc2dea4ef3db49173c65e58a2c8053184a253a09b8a5460227",
+      "runs/20261003T215206Z_locomo/official_input_lalm.jsonl": "6d9a0bb3559ecbd19f1f32f9c0d661b0659b99d87dcff74663d82cb9f64366b9",
+      "runs/20261003T215206Z_locomo/per_type.csv": "95f98ff9b39b7f5daeb5451eccc82c9738c165a27b033777de8197182908e0fc"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "longmemeval",
+    "agent": "lalm",
+    "training_seed": 23,
+    "evaluation_seed": 7,
+    "correction_style": "original",
+    "horizons": null,
+    "replacement_rule": "newest_wins",
+    "run": "jobs/756bbd352196/runs/20261003T210557Z_longmemeval",
+    "artifacts": {
+      "runs/20261003T210557Z_longmemeval/config.yaml": "f52d36c6820ad29e17413a5cc99df33f3a753513780e7948e45eb5f8db039a73",
+      "runs/20261003T210557Z_longmemeval/dataset_manifest.json": "483382a5dff4bfe6378afc471289419257e50c8c16666087b48d7d85dd66eaaa",
+      "runs/20261003T210557Z_longmemeval/predictions.jsonl": "f15b5b59e54d903111f3096119a8154e30713b9018bcd120f058554831189822",
+      "runs/20261003T210557Z_longmemeval/metrics.csv": "6d94944ef14e9df1d74d3f4d6fe1e70dfe868d2743c31d48d2b904ba1985df63",
+      "runs/20261003T210557Z_longmemeval/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T210557Z_longmemeval/errors.jsonl": "01b73ae7c040584f9ef9c59a08032e04401ad8f656ff32c2b80a3008f08a9918",
+      "runs/20261003T210557Z_longmemeval/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T210557Z_longmemeval/latency.csv": "e1c5643433e1aa23b3fdde434415852df284bdad0f8d058e5da84764f12c85b5",
+      "runs/20261003T210557Z_longmemeval/memory.csv": "f98dfe2f39803b4da7119b56b4a30192010f8c3cf845778f440d44b5779db8fa",
+      "runs/20261003T210557Z_longmemeval/official_input_lalm.jsonl": "be48f10b6d0b964f26520ed7aa3d49cdac6e6dfbd3adfac6ce9cc3e19a759bc0",
+      "runs/20261003T210557Z_longmemeval/per_type.csv": "4af3cbfce8c4befdd6fda0fbbdaa81705a873241da1f1f7aec90b080ad57e00f"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "locomo",
+    "agent": "lalm",
+    "training_seed": 13,
+    "evaluation_seed": 7,
+    "correction_style": "original",
+    "horizons": null,
+    "replacement_rule": "newest_wins",
+    "run": "jobs/75ad3027803d/runs/20261003T213413Z_locomo",
+    "artifacts": {
+      "runs/20261003T213413Z_locomo/config.yaml": "ea5c193e1818a99238e58f3d5475ba6c0198454000db162ba4b881d59bb5c21b",
+      "runs/20261003T213413Z_locomo/dataset_manifest.json": "125539ce67f935baa620dc52f661544f0b91184e30e151de46bf73008803ea6d",
+      "runs/20261003T213413Z_locomo/predictions.jsonl": "9e70551b2d8f6d31b8b712a3c938aa0c1bbc8f9bd7c2958893a9d8bd9f3137f4",
+      "runs/20261003T213413Z_locomo/metrics.csv": "0b16093a867a99b03541909024d193f39edb2374a490844f35e57052337a2003",
+      "runs/20261003T213413Z_locomo/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T213413Z_locomo/errors.jsonl": "6e0122600b41b008389e278607db523d5e88215f01947df0198fd430ec252aa3",
+      "runs/20261003T213413Z_locomo/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T213413Z_locomo/latency.csv": "f9b28087b78f0a951e2db7ecd54706ab5b9cc14f5c91d190738d4ca398fb2745",
+      "runs/20261003T213413Z_locomo/memory.csv": "2017102a8649fafc2dea4ef3db49173c65e58a2c8053184a253a09b8a5460227",
+      "runs/20261003T213413Z_locomo/official_input_lalm.jsonl": "9ee76f72079edd1fd26d8787127775cd8970b5cab524f5652b38ad8262d4ec1f",
+      "runs/20261003T213413Z_locomo/per_type.csv": "2159dc4e412312e15d7f8aefae4c2e0113a355f468afbb097751623812322cdb"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 41,
+    "evaluation_seed": 13,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/7c472ae70cf1/runs/20261003T201816Z_synthetic",
+    "artifacts": {
+      "runs/20261003T201816Z_synthetic/config.yaml": "22afb19331c98c47bdc6992acb46b9fa08ab713e4f29c72300b59ffc66046640",
+      "runs/20261003T201816Z_synthetic/dataset_manifest.json": "0b989e83dab1f5624a03a0e5ad83d071f10d6db0581e8e637219db51ed3a9e0f",
+      "runs/20261003T201816Z_synthetic/predictions.jsonl": "e0c6e11b0f7602a841197291efa8ed0668478006877b7154e5f97a4d41644565",
+      "runs/20261003T201816Z_synthetic/metrics.csv": "fb0f96ce822060c6864e889bd0b3c37eb81402f94e4df3933c1035a3f7044f6a",
+      "runs/20261003T201816Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T201816Z_synthetic/errors.jsonl": "faaa63fcf916757c14dd4c6556989824d43afc7d63c03600f3e4b7eac8891b9f",
+      "runs/20261003T201816Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T201816Z_synthetic/latency.csv": "d2c00e5d9511a6238252d568c2213111904880e0b7774ee074be9d4620dbdfeb",
+      "runs/20261003T201816Z_synthetic/memory.csv": "7b2f9c50fdbd6271df8677822f6d15b6c1d72b56adff63a0313ef7bede753c72",
+      "runs/20261003T201816Z_synthetic/per_type.csv": "529e10a31f86e18256ab5cf9b3955aabdfbf3408b8aa282d7cdc7c19a78a429f",
+      "runs/20261003T201816Z_synthetic/streams_1000.jsonl": "3524bf92059550bb355e1e7f12e17f86f532cc23079f804f12f0828dafeb8675",
+      "runs/20261003T201816Z_synthetic/streams_5000.jsonl": "e0bd464af67dde7ef6609952c70bd802e4ff4536f6a9e3bfe25cec3ec8452dda"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "locomo",
+    "agent": "lalm",
+    "training_seed": 37,
+    "evaluation_seed": 7,
+    "correction_style": "original",
+    "horizons": null,
+    "replacement_rule": "newest_wins",
+    "run": "jobs/7dff58b35800/runs/20261003T214555Z_locomo",
+    "artifacts": {
+      "runs/20261003T214555Z_locomo/config.yaml": "d99defbba171fe8e3e54c2e1144dd80f58fa6135c48623ca64cf194a6222b011",
+      "runs/20261003T214555Z_locomo/dataset_manifest.json": "40afbd9ba88edc1c703cab9ed039d3524022801259841735ecaa1b82c711d8e1",
+      "runs/20261003T214555Z_locomo/predictions.jsonl": "9c91197beb825c9ca992ae23e4dd602e8950440748bfb7a62c10cd789df03bda",
+      "runs/20261003T214555Z_locomo/metrics.csv": "b94a786b6ce0de100f15cc52a2d2364a2c19c62836fb2f581b5667f77bcd1c6d",
+      "runs/20261003T214555Z_locomo/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T214555Z_locomo/errors.jsonl": "06711e34e5690f44ba62876cb043984c2955bc8e24c958845288fae9bf556f12",
+      "runs/20261003T214555Z_locomo/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T214555Z_locomo/latency.csv": "bfa53da499281ab763616ec8907e183feff6f95bf17ad006993f46a7f49f0fef",
+      "runs/20261003T214555Z_locomo/memory.csv": "2017102a8649fafc2dea4ef3db49173c65e58a2c8053184a253a09b8a5460227",
+      "runs/20261003T214555Z_locomo/official_input_lalm.jsonl": "aa938194b4c53b1a12e5d8acb5b5272f1562b291e8e7806e35d7d06464db6686",
+      "runs/20261003T214555Z_locomo/per_type.csv": "0189acc9403f9821fab4aa07e1c89b750ad8d3b918109ed3e6476ea3b5b1584e"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lexical_only",
+    "training_seed": 7,
+    "evaluation_seed": 11,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/83979b098283/runs/20261003T181301Z_synthetic",
+    "artifacts": {
+      "runs/20261003T181301Z_synthetic/config.yaml": "9d7adea45058b7244991a64b473d7152ca66be135d00968868167aec213f1bfd",
+      "runs/20261003T181301Z_synthetic/dataset_manifest.json": "6ca7fe491bfb5eae61773528c1d87fbc890fe11dab29a11f941fb217442c0177",
+      "runs/20261003T181301Z_synthetic/predictions.jsonl": "ffefc0f040633de44ea6ec13ed189abf979e902aa95caa4b404ab72b59f9159e",
+      "runs/20261003T181301Z_synthetic/metrics.csv": "97a72e97683ccc465f38db2ec05a81ffd03741e5d706d40863604fc4c7f74599",
+      "runs/20261003T181301Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T181301Z_synthetic/errors.jsonl": "4e98317e5130fd32f84d79f7eceb4ec3b5be484faf629889a92083d27002491e",
+      "runs/20261003T181301Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T181301Z_synthetic/latency.csv": "03063d7143a637f54b0a815e6384e2398cdcc617a0dca1eb19c89d93c4ebdf56",
+      "runs/20261003T181301Z_synthetic/memory.csv": "7c73b347ef98c188a464c6e4db0c858d26f4e4206b2d45617f4bf0e059481c23",
+      "runs/20261003T181301Z_synthetic/per_type.csv": "b4bb34022045badfe480ef559fd29e22c790e2f21e296506800b1569125420f2"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 37,
+    "evaluation_seed": 11,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/8a7b4d491c4e/runs/20261003T175924Z_synthetic",
+    "artifacts": {
+      "runs/20261003T175924Z_synthetic/config.yaml": "3be47c25adda3975c97b036c4ef062b97ed4a5d3e7a3f8f3e1601b7e2b694476",
+      "runs/20261003T175924Z_synthetic/dataset_manifest.json": "724e1edfcbcec9d096d361d1b9c0a046074a46cc04fc647ed8acf6ac933cc0c6",
+      "runs/20261003T175924Z_synthetic/predictions.jsonl": "cacc06dbf814c731ddaa4b49e1ba6be6a5def8b55f8bf86aa01fb94858488ef7",
+      "runs/20261003T175924Z_synthetic/metrics.csv": "6eb637d7d5ec650e51dbcc6c91df70fc1c83f09f341d97b69855559d6ee9a7b3",
+      "runs/20261003T175924Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T175924Z_synthetic/errors.jsonl": "a7a33e4c65b334dfd36cf043ae3e9d44c6f50124c46dd63ec5d85482f672ba37",
+      "runs/20261003T175924Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T175924Z_synthetic/latency.csv": "655c4e7bab55221b46607249cfb7cee445651f50edaeb7a3948593d1eea7dc6c",
+      "runs/20261003T175924Z_synthetic/memory.csv": "f4b4301346be593970b1508ce565e9ee3ee7fe23aacfe30b899e58f616f0e2d2",
+      "runs/20261003T175924Z_synthetic/per_type.csv": "e1ae102d2ba797386741734add94588b729781317ec8d1d41593b91e1defac3e"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 41,
+    "evaluation_seed": 17,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/92146cc8d5ba/runs/20261003T191929Z_synthetic",
+    "artifacts": {
+      "runs/20261003T191929Z_synthetic/config.yaml": "8d5ed93d18e89c73a7398ec7044e09b6360b47f73d2d8a8a98166d3b31283609",
+      "runs/20261003T191929Z_synthetic/dataset_manifest.json": "1613de1b5344ef6a99c05169dd4bb4e76d10ec0c1315baa70401adb7c1d9fb84",
+      "runs/20261003T191929Z_synthetic/predictions.jsonl": "99e3da998c374d28428779a5237260faf34a97194caf0db8937b5e8d76429a4f",
+      "runs/20261003T191929Z_synthetic/metrics.csv": "6460ea96af52b6e3d43afbfac3efb8ee2b7785705e1670dd5ddbd66b86b1fbd5",
+      "runs/20261003T191929Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T191929Z_synthetic/errors.jsonl": "96b5b5e30c534214d026d63fbe745190123e07a5f572be1b9746b77bc0951083",
+      "runs/20261003T191929Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T191929Z_synthetic/latency.csv": "f8ad28e0f22af743d60a13143b13907d5b4113e489fa3688b7ad8de82132b33b",
+      "runs/20261003T191929Z_synthetic/memory.csv": "9f1bf6ef3b216c8cabd61a51772696352bbe02de0d3800450b1c2c8435e76745",
+      "runs/20261003T191929Z_synthetic/per_type.csv": "4e4934df85ebf6e3502113e541a62b2e0e2aac471c0fd6aa7b0da2fd70fef2dd"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 23,
+    "evaluation_seed": 13,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/93af49674d24/runs/20261003T182911Z_synthetic",
+    "artifacts": {
+      "runs/20261003T182911Z_synthetic/config.yaml": "745068c1364a40ead882549b5ccd6fdd5f61d26700ec436d1e7bd207e861f1f9",
+      "runs/20261003T182911Z_synthetic/dataset_manifest.json": "7915232e003c392ca3f75f7b21e449a20d2fa9f92571ed98b6126bc414eb7109",
+      "runs/20261003T182911Z_synthetic/predictions.jsonl": "f65c34df5162cfa6d355836c99ec2f878fd2b477fa8561c96899c0f947c94f7d",
+      "runs/20261003T182911Z_synthetic/metrics.csv": "f6ffe39b75ead5eed167aacf11b195b0be95707bba21e38ccb1096abfcf4ca70",
+      "runs/20261003T182911Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T182911Z_synthetic/errors.jsonl": "2f5f6185d6f67194a78abbc6c2938e6b962029303f6838478ad3f5015eacfede",
+      "runs/20261003T182911Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T182911Z_synthetic/latency.csv": "c735a19200fac37c86c1c56901a498bd5f92efa3a771fd7517bc9b6ef7fd5c66",
+      "runs/20261003T182911Z_synthetic/memory.csv": "5a9adeae1c83b6b903b598a700ff64d81105babaf6b00048bc00377b6f6e667e",
+      "runs/20261003T182911Z_synthetic/per_type.csv": "38f418d01fec48f30aa3851124fc0b0419459a71a20f0bf0f83a6d6b0f8fce0e"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 13,
+    "evaluation_seed": 17,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/9fd7a074df64/runs/20261003T203037Z_synthetic",
+    "artifacts": {
+      "runs/20261003T203037Z_synthetic/config.yaml": "a01641d6a89e584753ba9f3bc402d020368f385504f95909af351f33dcf8af5e",
+      "runs/20261003T203037Z_synthetic/dataset_manifest.json": "f206a0ae60fbb9b5742a3b6f4a53b1852e5342fe17cb49bba3e7636ec6759583",
+      "runs/20261003T203037Z_synthetic/predictions.jsonl": "3b64391a3ab6b9eb8dcbddd1995b3d6862f1b9310945267a30dab85b55a126eb",
+      "runs/20261003T203037Z_synthetic/metrics.csv": "32e083862f30f883d7a8755608777fee3977dea483477b082a9e2b2b6860a3e5",
+      "runs/20261003T203037Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T203037Z_synthetic/errors.jsonl": "98891ee58535f63a7f23c2f3b722a7cf507a945d92337bdd6956459ae202d87f",
+      "runs/20261003T203037Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T203037Z_synthetic/latency.csv": "808772fb3404946f852c201b49b9c5260aae3c787a0385faa2a9c26ba39f30b4",
+      "runs/20261003T203037Z_synthetic/memory.csv": "007b930ecde20e631ddc81fe9c70a96e2e8070426609673b1a339213f2f54b73",
+      "runs/20261003T203037Z_synthetic/per_type.csv": "ab58f37f3a9fdb1ef06bef7f6edc8a3c8d8f8b892aa7f96156973c8ac22080ee",
+      "runs/20261003T203037Z_synthetic/streams_1000.jsonl": "418b0a47db12370820ece7c46a63ee2a159450ed4f42c6796557365fc0d6ec52",
+      "runs/20261003T203037Z_synthetic/streams_5000.jsonl": "60b4322568125ba275fe6fa1bca019c9ce5ee040cedd6bd588332f4c5f0f6dea"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 23,
+    "evaluation_seed": 17,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/a46d8fd18893/runs/20261003T203547Z_synthetic",
+    "artifacts": {
+      "runs/20261003T203547Z_synthetic/config.yaml": "8fc1fcac4b2cd5442314fb2b1995ad55a9289097746c26e50bb5457ecd641c69",
+      "runs/20261003T203547Z_synthetic/dataset_manifest.json": "cf3ea0ace8bc4bdd1a0ab042b617b67d944b8ae917f2db063a1431f8e2a91e85",
+      "runs/20261003T203547Z_synthetic/predictions.jsonl": "48a7c2ef3202aa972d21790c1428938e1e36469e27abd2bb8cf8f15f829cd26d",
+      "runs/20261003T203547Z_synthetic/metrics.csv": "67006f690f3313dacb9b6eacdd03aee999c3111686a3a00409e76bb739ee040e",
+      "runs/20261003T203547Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T203547Z_synthetic/errors.jsonl": "b852ff3be0ecb67afbd294e209a6efc3c73502e8bf1bf6d990add819454c3edf",
+      "runs/20261003T203547Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T203547Z_synthetic/latency.csv": "acba2b2e6b8285f34c0bd97cc8ba6477f21aa4c7468464f7684c017504862c64",
+      "runs/20261003T203547Z_synthetic/memory.csv": "007b930ecde20e631ddc81fe9c70a96e2e8070426609673b1a339213f2f54b73",
+      "runs/20261003T203547Z_synthetic/per_type.csv": "826933d38095ae14187ec7d4df9f32c44443a6b3e3f3243cfe2f9994c284a88f",
+      "runs/20261003T203547Z_synthetic/streams_1000.jsonl": "418b0a47db12370820ece7c46a63ee2a159450ed4f42c6796557365fc0d6ec52",
+      "runs/20261003T203547Z_synthetic/streams_5000.jsonl": "60b4322568125ba275fe6fa1bca019c9ce5ee040cedd6bd588332f4c5f0f6dea"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "longmemeval",
+    "agent": "lalm",
+    "training_seed": 41,
+    "evaluation_seed": 7,
+    "correction_style": "original",
+    "horizons": null,
+    "replacement_rule": "newest_wins",
+    "run": "jobs/a89cf327ab44/runs/20261003T211903Z_longmemeval",
+    "artifacts": {
+      "runs/20261003T211903Z_longmemeval/config.yaml": "8f592654e53a9279eaf84908d846e35ad4f8c5c84a1de83f5ebebb15487c3a5f",
+      "runs/20261003T211903Z_longmemeval/dataset_manifest.json": "79356e7c93c2a95986afd31ff851fac52d3476d82a39cc84f1baae97a5f6491b",
+      "runs/20261003T211903Z_longmemeval/predictions.jsonl": "3d9af9b18f44bf4e818073f242ab94bbd07b8eb6832d356cc53cf95c73348c98",
+      "runs/20261003T211903Z_longmemeval/metrics.csv": "7c42024e87aa66585bab5f578f15af304f9653f2fe227c982e109a32391733a1",
+      "runs/20261003T211903Z_longmemeval/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T211903Z_longmemeval/errors.jsonl": "393a022971a39e9676b79916a862d30225548945dbd0cb2c2073d713a3ae2f84",
+      "runs/20261003T211903Z_longmemeval/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T211903Z_longmemeval/latency.csv": "33e92aeb6d36b655d4e0e9aa5ac8643532da40c89701b0a967d66a12085e0b53",
+      "runs/20261003T211903Z_longmemeval/memory.csv": "f98dfe2f39803b4da7119b56b4a30192010f8c3cf845778f440d44b5779db8fa",
+      "runs/20261003T211903Z_longmemeval/official_input_lalm.jsonl": "d06dc0efbf3d3a63669a7c86f840e72d1d1890748ccb3405ba6fde308ed53783",
+      "runs/20261003T211903Z_longmemeval/per_type.csv": "354bc5e6f60200a3b5159404fb0366c2aae767086aa9ddc459b10332ebf1e15e"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 13,
+    "evaluation_seed": 13,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/aa7d3bd3ee37/runs/20261003T182232Z_synthetic",
+    "artifacts": {
+      "runs/20261003T182232Z_synthetic/config.yaml": "ea0f95129613a876eb019a855d464feaf27c42b596e3c975a79b28b20f787fe8",
+      "runs/20261003T182232Z_synthetic/dataset_manifest.json": "d3a682eb4c59346a4ea0f9c84ae8f8bd988e8cb1b1823784208ae03051022c19",
+      "runs/20261003T182232Z_synthetic/predictions.jsonl": "de54273cafdfc0b568303e4dfea7fa6838f8412edf5e333254de4f353e20331b",
+      "runs/20261003T182232Z_synthetic/metrics.csv": "7d3a6c847c3a2241a9e1eb01d2e7cbd3d88d2678f060703c96c2a2f2ffd5c4c2",
+      "runs/20261003T182232Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T182232Z_synthetic/errors.jsonl": "40337e4af4768343a352211c77029f0cc1b1322f4e05bfdfefeb56e72747d659",
+      "runs/20261003T182232Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T182232Z_synthetic/latency.csv": "3186ee041f6cff97316a699e7b0478a294e35f419b100cdc3f5f3f7a0a10dfa7",
+      "runs/20261003T182232Z_synthetic/memory.csv": "5a9adeae1c83b6b903b598a700ff64d81105babaf6b00048bc00377b6f6e667e",
+      "runs/20261003T182232Z_synthetic/per_type.csv": "1952211296613df8cbb0aaf7093ee0548b668e94c04be3e5f3329e80935d12c0"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 7,
+    "evaluation_seed": 17,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/ab835b8f333c/runs/20261003T185234Z_synthetic",
+    "artifacts": {
+      "runs/20261003T185234Z_synthetic/config.yaml": "83d3c49f6cdc8fe75330a0cca190d97838be5d9f4107099ddb0925ee65154a63",
+      "runs/20261003T185234Z_synthetic/dataset_manifest.json": "b2ae1a8cd3b5feba44b7e6e6fc07c987f245db6d4477c120e029820a547e8356",
+      "runs/20261003T185234Z_synthetic/predictions.jsonl": "d87c02041ee7702850b583540a073aca821d2fd3609ade5d1aa580430a97cb3e",
+      "runs/20261003T185234Z_synthetic/metrics.csv": "76be75adb028b654c46cbdad062eb8962ec266029bfab485e202c42159c77963",
+      "runs/20261003T185234Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T185234Z_synthetic/errors.jsonl": "85ac70d5cc85eedf15237332094d9a98654e3850f10f4eee2c3278110532c4b6",
+      "runs/20261003T185234Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T185234Z_synthetic/latency.csv": "23eb1c8040d21294ed97f423337b46edf53f76d422bec48bd63f1e5d0729ffd8",
+      "runs/20261003T185234Z_synthetic/memory.csv": "9f1bf6ef3b216c8cabd61a51772696352bbe02de0d3800450b1c2c8435e76745",
+      "runs/20261003T185234Z_synthetic/per_type.csv": "b2e5da3f01f2f55cc1f57480087e4c9d25945ad54d59419d6019a5985818d8f0"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 37,
+    "evaluation_seed": 17,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/b0962f286999/runs/20261003T191238Z_synthetic",
+    "artifacts": {
+      "runs/20261003T191238Z_synthetic/config.yaml": "4d30742447c4edaca53295964581ea24c84aab33e4a888a9a2dfead8f860dc1a",
+      "runs/20261003T191238Z_synthetic/dataset_manifest.json": "526c2dd2092eee3b0c3a76af23c1a2c841043172dbe9fa063fc49e7980c4924c",
+      "runs/20261003T191238Z_synthetic/predictions.jsonl": "5b0aef489d033c8470768c073e87f69d48b3a7570d9340101206869cbf6c80e2",
+      "runs/20261003T191238Z_synthetic/metrics.csv": "c6e8debd58d49074f5553066a6b9ce289ebff54d0287d1d1573c8fdb09638dc8",
+      "runs/20261003T191238Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T191238Z_synthetic/errors.jsonl": "7e2c68425042bbc42acb6880e4b4cf4911bf419fd39a67379a7c24a13613b7e4",
+      "runs/20261003T191238Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T191238Z_synthetic/latency.csv": "b5517b26cee84d82f67421845595946257aea6eaef9f9fe495661d79e8536cd5",
+      "runs/20261003T191238Z_synthetic/memory.csv": "9f1bf6ef3b216c8cabd61a51772696352bbe02de0d3800450b1c2c8435e76745",
+      "runs/20261003T191238Z_synthetic/per_type.csv": "6f09fb38e43be916032e958de6bdcffad178f2b55620ad35e423535f90f25cc4"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "longmemeval",
+    "agent": "lexical_only",
+    "training_seed": 7,
+    "evaluation_seed": 7,
+    "correction_style": "original",
+    "horizons": null,
+    "replacement_rule": "newest_wins",
+    "run": "jobs/b504f685e3dd/runs/20261003T212511Z_longmemeval",
+    "artifacts": {
+      "runs/20261003T212511Z_longmemeval/config.yaml": "864bd8e54136363a3d2566d527f75a2af1066459c6d011e2fe7743e0f51eab55",
+      "runs/20261003T212511Z_longmemeval/dataset_manifest.json": "d810c237025bfd583d3f71ac052ce3c23da981ceab178ce5a0803a0b2d3a2d02",
+      "runs/20261003T212511Z_longmemeval/predictions.jsonl": "f855239fe6e55ec783f838f5e2bbfc53860e4c951c0d5ca91498f8dc61992991",
+      "runs/20261003T212511Z_longmemeval/metrics.csv": "6bf0b172b7c7059bbd987aec82b23b7c5343008b5ab4be9d5f9a955cfad6a5c4",
+      "runs/20261003T212511Z_longmemeval/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T212511Z_longmemeval/errors.jsonl": "a33a03f47f9e7f9d622e45bda55a9bb703335d81e004c7bd99170b3bf3ac0426",
+      "runs/20261003T212511Z_longmemeval/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T212511Z_longmemeval/latency.csv": "6b6d9262449f4c3164dc2e93c5e6f096ee2e1e5ef13a9bd10c0a638ae7f88fa2",
+      "runs/20261003T212511Z_longmemeval/memory.csv": "f19dd67506577aaff0d678712300cc238a0b1986d7a146b00e98dfc0ce1a5f35",
+      "runs/20261003T212511Z_longmemeval/official_input_lexical_only.jsonl": "ad9200ec9564019c58586b59edfc0be4bac885818e83f3ff6a58c3aac102611b",
+      "runs/20261003T212511Z_longmemeval/per_type.csv": "aa7e931084c2b22700faefb87374d1d80a09d7011848e7ba3f19a5271a640976"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 41,
+    "evaluation_seed": 13,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/b601fdbafd88/runs/20261003T184255Z_synthetic",
+    "artifacts": {
+      "runs/20261003T184255Z_synthetic/config.yaml": "a6ff92a5174a93dc997518483dbf61045e451fbfbf2c5c1b75f2a7dcfa9c3449",
+      "runs/20261003T184255Z_synthetic/dataset_manifest.json": "84f42761c9147d9a565d37baaf36623fb1844906b75b6c2957a9eaf82e87586d",
+      "runs/20261003T184255Z_synthetic/predictions.jsonl": "161608020b092b72618cecf3e5fb0a1cc98c7acbb1f9965e784f59963f46397d",
+      "runs/20261003T184255Z_synthetic/metrics.csv": "89779d94369ac32df46c65694670150aa2d525b61c1dfd91e89b352c9034499b",
+      "runs/20261003T184255Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T184255Z_synthetic/errors.jsonl": "a8165200999f2f881e7a7254702249f52c445d90c3c9970b153ad38b72eb8c54",
+      "runs/20261003T184255Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T184255Z_synthetic/latency.csv": "550866273385f4c6910d61ac5c14595b4382a35d4f49c3b1429585ac56ba4d69",
+      "runs/20261003T184255Z_synthetic/memory.csv": "5a9adeae1c83b6b903b598a700ff64d81105babaf6b00048bc00377b6f6e667e",
+      "runs/20261003T184255Z_synthetic/per_type.csv": "ffc78574c6648dce596ab70e57a785368ec7c199407f525a2407044dccda2896"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 7,
+    "evaluation_seed": 13,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/b8236b538319/runs/20261003T195657Z_synthetic",
+    "artifacts": {
+      "runs/20261003T195657Z_synthetic/config.yaml": "b70109723aa52c045c1719ea669992010ab1e10a028c710fd74a413ef7f9ef5e",
+      "runs/20261003T195657Z_synthetic/dataset_manifest.json": "bb1b075389bb8ec4fa4654453a1f1b127fc59572901368a0a000a376ac6f4550",
+      "runs/20261003T195657Z_synthetic/predictions.jsonl": "1e8862ac667d1c324a682384e1991903c7666d63b965a6f732fe145066d94a54",
+      "runs/20261003T195657Z_synthetic/metrics.csv": "9b447a6f27fa4393d8aff8081acb746d1fb03de5aab9873988392fdfdab6c2dc",
+      "runs/20261003T195657Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T195657Z_synthetic/errors.jsonl": "e15389d69242d027e45480b67f7f89388e4efeb8edd98598e95083fe3fa03321",
+      "runs/20261003T195657Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T195657Z_synthetic/latency.csv": "9c5682dc6fff3d050ff8ed557e9f5f6b6e0e0e96df83ae5d4f0a2cdd5ab6e74d",
+      "runs/20261003T195657Z_synthetic/memory.csv": "7b2f9c50fdbd6271df8677822f6d15b6c1d72b56adff63a0313ef7bede753c72",
+      "runs/20261003T195657Z_synthetic/per_type.csv": "d07390d643810e7f1c14f50ce670f98dd0fb0ac65640a566a4429c0cf3816603",
+      "runs/20261003T195657Z_synthetic/streams_1000.jsonl": "3524bf92059550bb355e1e7f12e17f86f532cc23079f804f12f0828dafeb8675",
+      "runs/20261003T195657Z_synthetic/streams_5000.jsonl": "e0bd464af67dde7ef6609952c70bd802e4ff4536f6a9e3bfe25cec3ec8452dda"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 37,
+    "evaluation_seed": 13,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/c88ada9d0e2e/runs/20261003T183600Z_synthetic",
+    "artifacts": {
+      "runs/20261003T183600Z_synthetic/config.yaml": "3726da91a0723db225d8a8ff32eef6d996f44a7ecb6f1dc0c71b807632359dc5",
+      "runs/20261003T183600Z_synthetic/dataset_manifest.json": "f08b249ee86e80c50da24d594e3c8a04d5eeaa90bd169372246ba5eedf394e0c",
+      "runs/20261003T183600Z_synthetic/predictions.jsonl": "b2fa92576fde4dc0da20098a43cc34bd9683fb9ad2621c26b98f77379b504c20",
+      "runs/20261003T183600Z_synthetic/metrics.csv": "f736541ca93367456c1ec7fc151a2a7c13af35d8da5b9de1e9131f20de5578d0",
+      "runs/20261003T183600Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T183600Z_synthetic/errors.jsonl": "c7a3756c1c9b557a84396e50ce9f6b395f1394e675a5fc0c52bde24c0a4c656a",
+      "runs/20261003T183600Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T183600Z_synthetic/latency.csv": "14a8df314eb008cb4aeea0c40677c5bdc8273e961d6729d559318f0dd809dc78",
+      "runs/20261003T183600Z_synthetic/memory.csv": "5a9adeae1c83b6b903b598a700ff64d81105babaf6b00048bc00377b6f6e667e",
+      "runs/20261003T183600Z_synthetic/per_type.csv": "244acdd0d2b796b73532e3e13c357c327a288faecf14391546c77e849ad8c61e"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 23,
+    "evaluation_seed": 11,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/cf7d3570fd58/runs/20261003T175237Z_synthetic",
+    "artifacts": {
+      "runs/20261003T175237Z_synthetic/config.yaml": "20b87c91bf919fd7152e0cb5b16ef5f730ec3af7db0f52e820c8f4cb9bef0ab0",
+      "runs/20261003T175237Z_synthetic/dataset_manifest.json": "fa3ba4e034d83b179d31e648dd78d6fad7e64b578ce1ddfa12ef5a2ab1ce7d59",
+      "runs/20261003T175237Z_synthetic/predictions.jsonl": "4959db8441e4e30e78430341ff7b3992c3985160b98ab3a8b0812b2c7a3b5482",
+      "runs/20261003T175237Z_synthetic/metrics.csv": "987ff8359d6eb3fab0778c5ac73fae90be98623d6ed24c76b633aa015da6493c",
+      "runs/20261003T175237Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T175237Z_synthetic/errors.jsonl": "027ccbe9a5e8285aa3bff2f78e23feee954e2a37f8bf9016a6aa93ffe70e1714",
+      "runs/20261003T175237Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T175237Z_synthetic/latency.csv": "a7eae74991a9b70e29f6ff9f736a7a47faabed412c6a78c82adfd5f261437a26",
+      "runs/20261003T175237Z_synthetic/memory.csv": "f4b4301346be593970b1508ce565e9ee3ee7fe23aacfe30b899e58f616f0e2d2",
+      "runs/20261003T175237Z_synthetic/per_type.csv": "1f1a8068077a062ab6cec12a59a1150010d8e43b65d5dffa922fb3b39e15d6be"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "locomo",
+    "agent": "lalm",
+    "training_seed": 7,
+    "evaluation_seed": 7,
+    "correction_style": "original",
+    "horizons": null,
+    "replacement_rule": "newest_wins",
+    "run": "jobs/d423c6480360/runs/20261003T212859Z_locomo",
+    "artifacts": {
+      "runs/20261003T212859Z_locomo/config.yaml": "ee1c87a73a725bef71ab5545b51ddfa99039d2074308d4b2436990894c1979d6",
+      "runs/20261003T212859Z_locomo/dataset_manifest.json": "dc281c7ef6d492bd329afcb448eda990661ba6c40dd1da9bfc1dd7f79597fdc7",
+      "runs/20261003T212859Z_locomo/predictions.jsonl": "215696836f22e9491e14af5a7a6e32064d5a900784e2d43eeabbc6132ebc7577",
+      "runs/20261003T212859Z_locomo/metrics.csv": "9c4a3c8ac4920653feedcea115d71d4118560caf452451e962c96bfd91f4ef79",
+      "runs/20261003T212859Z_locomo/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T212859Z_locomo/errors.jsonl": "df7a1d0a305795a5f4c8399569b40f8a267940ecaa14acf52e4ca7bff9fabcd7",
+      "runs/20261003T212859Z_locomo/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T212859Z_locomo/latency.csv": "e2cce224ef59130d73eff085955c50dc4348732027b5e712e68b0cf31de6a6d7",
+      "runs/20261003T212859Z_locomo/memory.csv": "2017102a8649fafc2dea4ef3db49173c65e58a2c8053184a253a09b8a5460227",
+      "runs/20261003T212859Z_locomo/official_input_lalm.jsonl": "67e95577df362b2ee51a6457d5a8d0fe707266a583c117a3750d31f172d55fa8",
+      "runs/20261003T212859Z_locomo/per_type.csv": "204b8efdc8efc5117437b51c13902602c1f493c67d84ff8d2681b50bb4100810"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "longmemeval",
+    "agent": "lalm",
+    "training_seed": 13,
+    "evaluation_seed": 7,
+    "correction_style": "original",
+    "horizons": null,
+    "replacement_rule": "newest_wins",
+    "run": "jobs/dbf4c0df343a/runs/20261003T205947Z_longmemeval",
+    "artifacts": {
+      "runs/20261003T205947Z_longmemeval/config.yaml": "52140939192d3b94be71e036d7c3df81015858b74db4ae7906678116b9e6668f",
+      "runs/20261003T205947Z_longmemeval/dataset_manifest.json": "6c63254d3ae8f77e1f7d84c9a6e68cd9406e65f39fe81fea42dda762833f9870",
+      "runs/20261003T205947Z_longmemeval/predictions.jsonl": "48f785184a43591e159e1eea0a7d8ecfea2fc130765acb7081dcf27f2c98bef2",
+      "runs/20261003T205947Z_longmemeval/metrics.csv": "c67349af93f50c340b83c651af940cf69af66b615d4de82fca15b8e63c7a0b4b",
+      "runs/20261003T205947Z_longmemeval/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T205947Z_longmemeval/errors.jsonl": "5da9541008c48c973af93552068760fefc85f1d16836a4f2b4b284c23e5e87f0",
+      "runs/20261003T205947Z_longmemeval/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T205947Z_longmemeval/latency.csv": "4aa5ed83db33e81d7520e12e27f86c161b5ac52e265547f7efc797ff44425f45",
+      "runs/20261003T205947Z_longmemeval/memory.csv": "f98dfe2f39803b4da7119b56b4a30192010f8c3cf845778f440d44b5779db8fa",
+      "runs/20261003T205947Z_longmemeval/official_input_lalm.jsonl": "ccffbdc5e4953e225cb06f976b61065f23e033532ef1393845a5ddf19e70b4b8",
+      "runs/20261003T205947Z_longmemeval/per_type.csv": "8ca771cb8b98227430deabeda93b771339e6d26bbcaa0b86525170a0952577cd"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 41,
+    "evaluation_seed": 17,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/e5a03fb15905/runs/20261003T204627Z_synthetic",
+    "artifacts": {
+      "runs/20261003T204627Z_synthetic/config.yaml": "15e051e0b024a1124835a3e08fd6f8f211ff4319c904b82a1d1ff824891e99a3",
+      "runs/20261003T204627Z_synthetic/dataset_manifest.json": "2a32faf3b4d5e7fb39f370bd347bc41d5b2998f696afdc6e99dcc044499c8139",
+      "runs/20261003T204627Z_synthetic/predictions.jsonl": "f294bbba207c304c3262d7dcf9c69167b5bc3504548fd2e45cb19a6be2c8c2bb",
+      "runs/20261003T204627Z_synthetic/metrics.csv": "8b316968cacac711d22c4c31fb4162326b47dc39ca849936bf39069b0edafcd0",
+      "runs/20261003T204627Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T204627Z_synthetic/errors.jsonl": "96ae92d08cf23616f1a14a5c0cac87137aace2feca477bbfe6abba467d1cc945",
+      "runs/20261003T204627Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T204627Z_synthetic/latency.csv": "88844ab10c0bd1e965f929636c9765d43b3c6d95e61fac82c70fcbf4d8058ee0",
+      "runs/20261003T204627Z_synthetic/memory.csv": "007b930ecde20e631ddc81fe9c70a96e2e8070426609673b1a339213f2f54b73",
+      "runs/20261003T204627Z_synthetic/per_type.csv": "993b973e416fd5211971f73acdccd0328d6404459187dea199aa40b7e21fb781",
+      "runs/20261003T204627Z_synthetic/streams_1000.jsonl": "418b0a47db12370820ece7c46a63ee2a159450ed4f42c6796557365fc0d6ec52",
+      "runs/20261003T204627Z_synthetic/streams_5000.jsonl": "60b4322568125ba275fe6fa1bca019c9ce5ee040cedd6bd588332f4c5f0f6dea"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 7,
+    "evaluation_seed": 17,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/e5c2c06f123a/runs/20261003T202524Z_synthetic",
+    "artifacts": {
+      "runs/20261003T202524Z_synthetic/config.yaml": "b078e465477c9d30a0ae7ded59f228308a21f6e0d426b55ecf26ec6af26a3e6f",
+      "runs/20261003T202524Z_synthetic/dataset_manifest.json": "78ac521e4cd116d4143fded3391161a7ffeed811b462491c1657826f7b9956a9",
+      "runs/20261003T202524Z_synthetic/predictions.jsonl": "b1e8a2c5aa9ab78f51aa121149faf63451819d8859ac1741ed78dc95eb57f7fa",
+      "runs/20261003T202524Z_synthetic/metrics.csv": "7923a75d82b1867ebefc694a5783adb5babe893047fc9344541be927b63e7a7d",
+      "runs/20261003T202524Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T202524Z_synthetic/errors.jsonl": "875aa190c3688c5285df7da8c10950afef3affba17974059c2a58e7983c46b18",
+      "runs/20261003T202524Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T202524Z_synthetic/latency.csv": "2f4509184d1ed42dd99ee3191e7eba49fd1f276f79391c7d6785e963ccdcb7ed",
+      "runs/20261003T202524Z_synthetic/memory.csv": "007b930ecde20e631ddc81fe9c70a96e2e8070426609673b1a339213f2f54b73",
+      "runs/20261003T202524Z_synthetic/per_type.csv": "56335066c4d81bbd7d5f0e71295734bad8ae5bc156d49139603d2d034cf2bf3f",
+      "runs/20261003T202524Z_synthetic/streams_1000.jsonl": "418b0a47db12370820ece7c46a63ee2a159450ed4f42c6796557365fc0d6ec52",
+      "runs/20261003T202524Z_synthetic/streams_5000.jsonl": "60b4322568125ba275fe6fa1bca019c9ce5ee040cedd6bd588332f4c5f0f6dea"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 41,
+    "evaluation_seed": 11,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/f15d20682383/runs/20261003T194932Z_synthetic",
+    "artifacts": {
+      "runs/20261003T194932Z_synthetic/config.yaml": "80cdaea797ae9155e5a6f87a804b558067769a01ab7d72be47c208b6737b8283",
+      "runs/20261003T194932Z_synthetic/dataset_manifest.json": "385edf1f0206514d9334aed0e15a7304431e182b53fdb8f190ae8b2235d453b1",
+      "runs/20261003T194932Z_synthetic/predictions.jsonl": "4832371693aecdaed0ec394acab0459e67cbb90df8a09303064d05c2e3187d0d",
+      "runs/20261003T194932Z_synthetic/metrics.csv": "0986e616e8f77bc2a382aab6b70800a44d9565a2c670d719a0d6884c0c133067",
+      "runs/20261003T194932Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T194932Z_synthetic/errors.jsonl": "f4f46c0094d9da39d03d698e8471c7a31959fe7d8b4e6352d07985366faa2253",
+      "runs/20261003T194932Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T194932Z_synthetic/latency.csv": "1bb37d890ef319a107b69c9989164de17fe9b0c6ca8b31ddaea0c12344553c9d",
+      "runs/20261003T194932Z_synthetic/memory.csv": "e8ca46110ad80512fb2722fe6a3ace977028223bbc96cf7ff1f2408925013622",
+      "runs/20261003T194932Z_synthetic/per_type.csv": "b49d1f5c3c83fdd09227670467ffb4e13a3b0d206412331c6ae36f44c2e4285a",
+      "runs/20261003T194932Z_synthetic/streams_1000.jsonl": "ddc0ed99018f5936f849738f2199e970b0d5ffa478a0c9e1678b059b21344402",
+      "runs/20261003T194932Z_synthetic/streams_5000.jsonl": "4b427d680e7372306c79d74f554b6076bc39673bab8bbb3c03bde8608c93b000"
+    }
+  },
+  {
+    "group": "newest-wins-original",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 23,
+    "evaluation_seed": 17,
+    "correction_style": "original",
+    "horizons": [
+      100,
+      500,
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/f38c4b31b8f6/runs/20261003T190551Z_synthetic",
+    "artifacts": {
+      "runs/20261003T190551Z_synthetic/config.yaml": "cd05e1930ec332cd011d1ef44f081bb1b3756d8fa075523e49154a04212ddeac",
+      "runs/20261003T190551Z_synthetic/dataset_manifest.json": "120aeea09b7490c949aa1dff1ad25004636cb46537431821d877598db99126f6",
+      "runs/20261003T190551Z_synthetic/predictions.jsonl": "0f0f016c4f56a96f397636a44dae561a0d33e65081e3131b406cb82ac4f39b02",
+      "runs/20261003T190551Z_synthetic/metrics.csv": "e4b1287c08164aec190cb48bbab1228ded704326e2f3702db6854b95d901db4a",
+      "runs/20261003T190551Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T190551Z_synthetic/errors.jsonl": "faff76f2f2d0eac59c3d612b13b92b7f43e43b56608484f1518df80c673bfd06",
+      "runs/20261003T190551Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T190551Z_synthetic/latency.csv": "3069edab6a8e948c2b7a0792a456ee7b1428ce2fa128a75f53bdaca6b15e24b2",
+      "runs/20261003T190551Z_synthetic/memory.csv": "9f1bf6ef3b216c8cabd61a51772696352bbe02de0d3800450b1c2c8435e76745",
+      "runs/20261003T190551Z_synthetic/per_type.csv": "d9d342bb6176d0be93b676ca9be106049077e69ff1358938b1e5ef3490bfeb8d"
+    }
+  },
+  {
+    "group": "newest-wins-cue_free",
+    "dataset": "synthetic",
+    "agent": "lalm",
+    "training_seed": 23,
+    "evaluation_seed": 13,
+    "correction_style": "cue_free",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "replacement_rule": "newest_wins",
+    "run": "jobs/fe757ab58772/runs/20261003T200734Z_synthetic",
+    "artifacts": {
+      "runs/20261003T200734Z_synthetic/config.yaml": "646b35df824ee5e7e67858f5314bc71a222a9ae07bb42da5a095b983b5ae3285",
+      "runs/20261003T200734Z_synthetic/dataset_manifest.json": "f7822af9e7bbf6569f409323109b3ca9d3dce8921fdb28f9aad002d458b8e599",
+      "runs/20261003T200734Z_synthetic/predictions.jsonl": "ad06b9694600a6d8dfdaedc11f554531db186639fa3e5c04c9a549001fe3f2fc",
+      "runs/20261003T200734Z_synthetic/metrics.csv": "32e083862f30f883d7a8755608777fee3977dea483477b082a9e2b2b6860a3e5",
+      "runs/20261003T200734Z_synthetic/environment.json": "74c340835ae8f8a5f11c26fc7ffbe38c8144b97146c360bae5fe34391b322aba",
+      "runs/20261003T200734Z_synthetic/errors.jsonl": "abda06df155b4789bf5284b2c66eef0e479cef8fb071012d9a2148e8be721b9a",
+      "runs/20261003T200734Z_synthetic/hardware.json": "eb860687dc00da1bcd6394838febe3f534da14dfb8eb43171086f9bf8ae17dea",
+      "runs/20261003T200734Z_synthetic/latency.csv": "a4f41a9ec1b1f76a44fa03f5b95b17eeebeccc397343d39b4ccfac873449d95c",
+      "runs/20261003T200734Z_synthetic/memory.csv": "7b2f9c50fdbd6271df8677822f6d15b6c1d72b56adff63a0313ef7bede753c72",
+      "runs/20261003T200734Z_synthetic/per_type.csv": "07a34522ad3ddec98da8c2e10aa52cde62b903232e82b28719803682ffe3b1fb",
+      "runs/20261003T200734Z_synthetic/streams_1000.jsonl": "3524bf92059550bb355e1e7f12e17f86f532cc23079f804f12f0828dafeb8675",
+      "runs/20261003T200734Z_synthetic/streams_5000.jsonl": "e0bd464af67dde7ef6609952c70bd802e4ff4536f6a9e3bfe25cec3ec8452dda"
+    }
+  }
+]

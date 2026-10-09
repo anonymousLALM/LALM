@@ -1,0 +1,489 @@
+[
+  {
+    "path": "results/historical/runs/20260709T063916Z_multi_seed/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 7,
+    "agents": [
+      "lalm",
+      "lexical_only"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/historical/runs/20260708T103354Z_multi_seed/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 13,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/historical/runs/20260709T093908Z_multi_seed/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 7,
+    "agents": [
+      "lalm",
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix"
+  },
+  {
+    "path": "results/historical/runs/20260709T090013Z_multi_seed/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 7,
+    "agents": [
+      "lalm",
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix"
+  },
+  {
+    "path": "results/historical/runs/20260709T091658Z_multi_seed/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 13,
+    "agents": [
+      "lalm",
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix"
+  },
+  {
+    "path": "results/historical/runs/20260709T074140Z_multi_seed/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 13,
+    "agents": [
+      "lalm",
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix"
+  },
+  {
+    "path": "results/historical/runs/20260709T103718Z_longmemeval/predictions.jsonl",
+    "dataset": "longmemeval",
+    "training_seed": 7,
+    "agents": [
+      "lalm",
+      "lexical_only"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/historical/runs/20260709T094752Z_longmemeval/predictions.jsonl",
+    "dataset": "longmemeval",
+    "training_seed": 13,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/historical/runs/20260709T112355Z_locomo/predictions.jsonl",
+    "dataset": "locomo",
+    "training_seed": 13,
+    "agents": [
+      "lalm",
+      "lexical_only"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/historical/runs/20260709T120339Z_locomo/predictions.jsonl",
+    "dataset": "locomo",
+    "training_seed": 7,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/historical/extension_seed_23/runs/20260930T123545Z_locomo/predictions.jsonl",
+    "dataset": "locomo",
+    "training_seed": 23,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/historical/extension_seed_23/runs/20260930T122443Z_longmemeval/predictions.jsonl",
+    "dataset": "longmemeval",
+    "training_seed": 23,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/historical/extension_seed_23/runs/20260930T112222Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 23,
+    "agents": [
+      "lalm",
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix"
+  },
+  {
+    "path": "results/historical/extension_seed_23/runs/20260930T112705Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 23,
+    "agents": [
+      "lalm",
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix"
+  },
+  {
+    "path": "results/historical/extension_seed_23/runs/20260930T113146Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 23,
+    "agents": [
+      "lalm",
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix"
+  },
+  {
+    "path": "results/historical/extension_seed_23/runs/20260930T113624Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 23,
+    "agents": [
+      "lalm",
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix"
+  },
+  {
+    "path": "results/historical/extension_seed_23/runs/20260930T115230Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 23,
+    "agents": [
+      "lalm",
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix"
+  },
+  {
+    "path": "results/historical/extension_seed_23/runs/20260930T120836Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 23,
+    "agents": [
+      "lalm",
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix"
+  },
+  {
+    "path": "results/historical/extension_seed_23/runs/20260930T104531Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 23,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/historical/extension_seed_23/runs/20260930T105831Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 23,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/historical/extension_seed_23/runs/20260930T111027Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 23,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/evaluation_study/jobs/1493bffeb141/runs/20261001T204103Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 37,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/evaluation_study/jobs/1493bffeb141/runs/20261001T204103Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 37,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "prefix",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/1ec82b4b7ee9/runs/20261001T210829Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 37,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/evaluation_study/jobs/1ec82b4b7ee9/runs/20261001T210829Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 37,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "prefix",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/25a064f28a86/runs/20261001T171700Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 7,
+    "agents": [
+      "rag_timestamp"
+    ],
+    "suite": "main",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/319ef59dc9de/runs/20261001T171313Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 7,
+    "agents": [
+      "rag_timestamp"
+    ],
+    "suite": "main",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/3ab6c813eae8/runs/20261001T231227Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 41,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/evaluation_study/jobs/3ab6c813eae8/runs/20261001T231227Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 41,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "prefix",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/5bf7fad02365/runs/20261002T003308Z_longmemeval/predictions.jsonl",
+    "dataset": "longmemeval",
+    "training_seed": 41,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/evaluation_study/jobs/68233ba278a8/runs/20261001T221431Z_locomo/predictions.jsonl",
+    "dataset": "locomo",
+    "training_seed": 37,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/evaluation_study/jobs/6d5b6ad298a1/runs/20261001T214754Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 37,
+    "agents": [
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/6eebe980f586/runs/20261001T220241Z_longmemeval/predictions.jsonl",
+    "dataset": "longmemeval",
+    "training_seed": 37,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/evaluation_study/jobs/8233db162968/runs/20261001T232434Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 41,
+    "agents": [
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/84d429ae90c4/runs/20261001T172031Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 7,
+    "agents": [
+      "rag_timestamp"
+    ],
+    "suite": "main",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/85de0594302b/runs/20261002T001818Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 41,
+    "agents": [
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/937e70a10638/runs/20261001T205347Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 37,
+    "agents": [
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/9782868b52f5/runs/20261001T233919Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 41,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/evaluation_study/jobs/9782868b52f5/runs/20261001T233919Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 41,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "prefix",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/9788924b5cc9/runs/20261001T235129Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 41,
+    "agents": [
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/bff3d541a472/runs/20261002T004424Z_locomo/predictions.jsonl",
+    "dataset": "locomo",
+    "training_seed": 41,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/evaluation_study/jobs/c0095f01390c/runs/20261001T212050Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 37,
+    "agents": [
+      "lalm_zero_prefix"
+    ],
+    "suite": "prefix",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/c338fef662b2/runs/20261002T000611Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 41,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/evaluation_study/jobs/c338fef662b2/runs/20261002T000611Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 41,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "prefix",
+    "horizons": [
+      1000,
+      5000
+    ]
+  },
+  {
+    "path": "results/evaluation_study/jobs/f988f69798ec/runs/20261001T213535Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 37,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "main"
+  },
+  {
+    "path": "results/evaluation_study/jobs/f988f69798ec/runs/20261001T213535Z_synthetic/predictions.jsonl",
+    "dataset": "synthetic",
+    "training_seed": 37,
+    "agents": [
+      "lalm"
+    ],
+    "suite": "prefix",
+    "horizons": [
+      1000,
+      5000
+    ]
+  }
+]

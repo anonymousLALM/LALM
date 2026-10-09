@@ -1,0 +1,7 @@
+{
+  "stage": "locomo",
+  "run": "runs/20260930T123545Z_locomo",
+  "artifact": "metrics.csv",
+  "sha256": "dd77177d0689fb96eadb99ad52e0f4fe0ddc25aa2c6c1484e2e183203360d73b",
+  "source_zip_sha256": "cab2388c8401b6f9486dd08a75dfbe4e39fe1825e4ccba98b00ce6a0a601cd9a"
+}

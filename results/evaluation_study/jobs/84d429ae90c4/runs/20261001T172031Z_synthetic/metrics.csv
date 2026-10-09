@@ -1,0 +1,5 @@
+horizon,agent,examples,accuracy
+100,rag_timestamp,100,0.68
+500,rag_timestamp,75,0.72
+1000,rag_timestamp,50,0.62
+5000,rag_timestamp,50,0.58

@@ -1,0 +1,18 @@
+{
+  "job": {
+    "dataset": "synthetic",
+    "style": "original",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "e": 17,
+    "seed": 41,
+    "agents": [
+      "lalm"
+    ]
+  },
+  "result": "runs/20261008T150746Z/20261008T150747Z_agent_tasks",
+  "predictions_sha256": "22195da8c254e0103b2dd8900de93d235a29f3a7a61dc46df8962e0dbd23b553",
+  "release_predictions_sha256": "22195da8c254e0103b2dd8900de93d235a29f3a7a61dc46df8962e0dbd23b553"
+}

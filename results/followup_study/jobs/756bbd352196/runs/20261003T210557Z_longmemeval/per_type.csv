@@ -1,0 +1,7 @@
+agent,question_type,examples,diagnostic_token_f1,diagnostic_exact_match
+lalm,knowledge-update,78,0.2697347973663763,0.1794871794871795
+lalm,multi-session,133,0.059515086473007836,0.03007518796992481
+lalm,single-session-assistant,56,0.4290930430263137,0.30357142857142855
+lalm,single-session-preference,30,0.04630127952081892,0.0
+lalm,single-session-user,20,0.5969049765388438,0.5
+lalm,temporal-reasoning,133,0.09124533554428191,0.05263157894736842

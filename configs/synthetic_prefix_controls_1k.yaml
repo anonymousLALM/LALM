@@ -1,0 +1,17 @@
+defaults: synthetic.yaml
+dataset:
+  turns:
+  - 1000
+  examples_by_horizon:
+    1000: 50
+  test_seeds:
+  - 11
+  - 13
+  - 17
+evaluation:
+  agents:
+  - lexical_only
+  - lalm_zero_prefix
+  - lalm_random_prefix
+  - lalm_permuted_prefix
+  - lalm

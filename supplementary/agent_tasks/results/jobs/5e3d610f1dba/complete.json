@@ -1,0 +1,21 @@
+{
+  "job": {
+    "dataset": "synthetic",
+    "style": "original",
+    "horizons": [
+      1000,
+      5000
+    ],
+    "e": 13,
+    "seed": 7,
+    "agents": [
+      "lexical_only",
+      "rag",
+      "rag_timestamp",
+      "bounded_rag"
+    ]
+  },
+  "result": "runs/20261008T122450Z/20261008T122452Z_agent_tasks",
+  "predictions_sha256": "b7bd7470225f6628f7abcd23796fee73611e246bce037030fbdb1a5baaef8f32",
+  "release_predictions_sha256": "b7bd7470225f6628f7abcd23796fee73611e246bce037030fbdb1a5baaef8f32"
+}

@@ -1,0 +1,3 @@
+horizon,agent,examples,accuracy
+1000,lalm_zero_prefix,50,0.74
+5000,lalm_zero_prefix,50,0.64

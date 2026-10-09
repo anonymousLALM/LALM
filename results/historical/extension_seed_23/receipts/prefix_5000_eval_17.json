@@ -1,0 +1,7 @@
+{
+  "stage": "prefix_5000_eval_17",
+  "run": "runs/20260930T120836Z_synthetic",
+  "artifact": "metrics.csv",
+  "sha256": "609e16ddff02c0f5fe649fad6e8a55a82c24ca59787fc98cfd76cd9ce5c74db1",
+  "source_zip_sha256": "cab2388c8401b6f9486dd08a75dfbe4e39fe1825e4ccba98b00ce6a0a601cd9a"
+}

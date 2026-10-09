@@ -1,0 +1,213 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "book_trip",
+      "description": "book trip",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person": {
+            "type": "string"
+          },
+          "destination": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "person",
+          "destination"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "record_profile",
+      "description": "record profile",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person": {
+            "type": "string"
+          },
+          "hometown": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "person",
+          "hometown"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "reserve_venue",
+      "description": "reserve venue",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person": {
+            "type": "string"
+          },
+          "venue": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "person",
+          "venue"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_response_preferences",
+      "description": "set response preferences",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person": {
+            "type": "string"
+          },
+          "concise": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "person",
+          "concise"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_goal",
+      "description": "set goal",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person": {
+            "type": "string"
+          },
+          "project": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "person",
+          "project"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "send_message",
+      "description": "send message",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person": {
+            "type": "string"
+          },
+          "text_style": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "person",
+          "text_style"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "log_meeting",
+      "description": "log meeting",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person": {
+            "type": "string"
+          },
+          "collaborator": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "person",
+          "collaborator"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "update_profile",
+      "description": "update profile",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person": {
+            "type": "string"
+          },
+          "hometown": {
+            "type": "string"
+          },
+          "project": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "person",
+          "hometown",
+          "project"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_reminder",
+      "description": "set reminder",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "person": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "person",
+          "date"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+]

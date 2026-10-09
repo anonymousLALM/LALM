@@ -1,0 +1,3 @@
+agent,horizon,question_type,n,correct_tool,exact_arguments,full_success,write_ms_per_turn,read_ms,end_to_end_ms
+lalm,1000,all,50,0.32,0.04,0.04,1.061512103999994,9.531080000306247,2933.8387800000783
+lalm,5000,all,50,0.9,0.58,0.56,1.0773814296000055,9.526664000150049,6815.470061999658

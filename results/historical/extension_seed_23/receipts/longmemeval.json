@@ -1,0 +1,7 @@
+{
+  "stage": "longmemeval",
+  "run": "runs/20260930T122443Z_longmemeval",
+  "artifact": "metrics.csv",
+  "sha256": "b1909a916459cb75184205ae65cd7106543a5abd674b30e2a9dd8c08676322f7",
+  "source_zip_sha256": "cab2388c8401b6f9486dd08a75dfbe4e39fe1825e4ccba98b00ce6a0a601cd9a"
+}

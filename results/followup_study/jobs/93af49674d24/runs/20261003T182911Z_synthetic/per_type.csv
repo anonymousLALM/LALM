@@ -1,0 +1,11 @@
+agent,question_type,accuracy
+lalm,boolean,0.0
+lalm,contradictory_update,1.0
+lalm,correction,0.9642857142857143
+lalm,goal,0.9259259259259259
+lalm,multi_fact,0.0
+lalm,paraphrase,0.8518518518518519
+lalm,repeated_fact,1.0
+lalm,response_style,0.5925925925925926
+lalm,stable_fact,1.0
+lalm,temporal,0.7407407407407407

@@ -1,0 +1,24 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": [
+    "accelerate==1.13.0",
+    "faiss-cpu==1.14.3",
+    "matplotlib==3.10.8",
+    "nltk==3.9.3",
+    "numpy==2.4.2",
+    "pandas==2.3.3",
+    "pytest==8.4.2",
+    "PyYAML==6.0.3",
+    "requests==2.32.5",
+    "safetensors==0.7.0",
+    "scikit-learn==1.8.0",
+    "sentence-transformers==5.2.3",
+    "tokenizers==0.21.4",
+    "torch==2.10.0+cu128",
+    "tqdm==4.67.1",
+    "transformers==4.51.3"
+  ],
+  "torch": "2.10.0+cu128",
+  "cuda_runtime": "12.8"
+}

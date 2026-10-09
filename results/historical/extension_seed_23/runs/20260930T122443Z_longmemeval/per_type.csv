@@ -1,0 +1,13 @@
+agent,question_type,examples,diagnostic_token_f1,diagnostic_exact_match
+lalm,knowledge-update,78,0.2697347973663763,0.1794871794871795
+lalm,multi-session,133,0.059515086473007836,0.03007518796992481
+lalm,single-session-assistant,56,0.4290930430263137,0.30357142857142855
+lalm,single-session-preference,30,0.04630127952081892,0.0
+lalm,single-session-user,20,0.5469049765388438,0.45
+lalm,temporal-reasoning,133,0.09124533554428191,0.05263157894736842
+pure_liquid,knowledge-update,78,0.06568516953132338,0.02564102564102564
+pure_liquid,multi-session,133,0.06731113498030791,0.06015037593984962
+pure_liquid,single-session-assistant,56,0.12343332575945358,0.07142857142857142
+pure_liquid,single-session-preference,30,0.014521542985165276,0.0
+pure_liquid,single-session-user,20,0.06385281385281386,0.05
+pure_liquid,temporal-reasoning,133,0.13609432821937767,0.08270676691729323
